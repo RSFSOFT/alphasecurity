@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>@keyframes slides {
+        from {
+          transform: translateX(0);
+        }
+        to {
+          transform: translateX(-100%);
+        }
+      }
+      
+      .logos {
+        overflow: hidden;
+        padding: 30px 0px;
+        white-space: nowrap;
+        position: relative;
+      }
+      
+      .logos:before, .logos:after {
+        position: absolute;
+        top: 0;
+        content: '';
+        width: 250px;
+        height: 100%;
+        z-index: 2;
+      }
+      
+      .logos:before {
+        left: 0;
+        background: linear-gradient(to left, rgba(255,255,255,0), rgb(255, 255, 255));
+      }
+      
+      .logos:after {
+        right: 0;
+        background: linear-gradient(to right, rgba(255,255,255,0), rgb(255, 255, 255));
+      }
+      
+      .logo_items {
+        display: inline-block;
+        animation: 35s slides infinite linear;
+      }
+      
+      .logos:hover .logo_items {
+        animation-play-state: paused;
+      }
+      
+      .logo_items img{
+        height: 100px;
+      }</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="logos">
+        <div class="logo_items">
+        <img src="./images/1.png" class="d-block IMG-CLIENTS" alt="Sponsor 1">
+        <img src="./images/2.png" class="d-block IMG-CLIENTS" alt="Sponsor 1">
+        <img src="./images/3.png" class="d-block IMG-CLIENTS" alt="Sponsor 1">
+        <img src="./images/4.png" class="d-block IMG-CLIENTS" alt="Sponsor 1">
+        <img src="./images/5.png" class="d-block IMG-CLIENTS" alt="Sponsor 1">
+        <img src="./images/6.png" class="d-block IMG-CLIENTS" alt="Sponsor 1">
+        <img src="./images/7.png" class="d-block IMG-CLIENTS" alt="Sponsor 1">
+        <img src="./images/8.png" class="d-block IMG-CLIENTS" alt="Sponsor 1">
+        <img src="./images/9.png" class="d-block IMG-CLIENTS" alt="Sponsor 1">
+        <img src="./images/10.png" class="d-block IMG-CLIENTS" alt="Sponsor 1">
+        <img src="./images/11.png" class="d-block IMG-CLIENTS" alt="Sponsor 1">
+        <img src="./images/12.png" class="d-block IMG-CLIENTS" alt="Sponsor 1">
+        <img src="./images/13.png" class="d-block IMG-CLIENTS" alt="Sponsor 1">
+        <img src="./images/14.png" class="d-block IMG-CLIENTS" alt="Sponsor 1">
+        <img src="./images/15.png" class="d-block IMG-CLIENTS" alt="Sponsor 1">
+
+        
+        </div>
+          <div class="logo_items">
+            <img src="./images/1.png" class="d-block IMG-CLIENTS" alt="Sponsor 1">
+        <img src="./images/2.png" class="d-block IMG-CLIENTS" alt="Sponsor 1">
+        <img src="./images/3.png" class="d-block IMG-CLIENTS" alt="Sponsor 1">
+        <img src="./images/4.png" class="d-block IMG-CLIENTS" alt="Sponsor 1">
+        <img src="./images/5.png" class="d-block IMG-CLIENTS" alt="Sponsor 1">
+        <img src="./images/6.png" class="d-block IMG-CLIENTS" alt="Sponsor 1">
+        <img src="./images/7.png" class="d-block IMG-CLIENTS" alt="Sponsor 1">
+        <img src="./images/8.png" class="d-block IMG-CLIENTS" alt="Sponsor 1">
+        <img src="./images/9.png" class="d-block IMG-CLIENTS" alt="Sponsor 1">
+        <img src="./images/10.png" class="d-block IMG-CLIENTS" alt="Sponsor 1">
+        <img src="./images/11.png" class="d-block IMG-CLIENTS" alt="Sponsor 1">
+        <img src="./images/12.png" class="d-block IMG-CLIENTS" alt="Sponsor 1">
+        <img src="./images/13.png" class="d-block IMG-CLIENTS" alt="Sponsor 1">
+        <img src="./images/14.png" class="d-block IMG-CLIENTS" alt="Sponsor 1">
+        <img src="./images/15.png" class="d-block IMG-CLIENTS" alt="Sponsor 1">
+        
+        </div>
+        </div>
+</body>
+</html>

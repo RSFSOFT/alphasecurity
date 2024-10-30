@@ -1,0 +1,124 @@
+.info-image-career {
+    width: 79% !important;
+    margin-left: 0px;
+    margin-top: -203px;
+    z-index: 4;
+    position: relative;
+    border-bottom: 4px solid #283492;
+}
+
+.carrer-headings{font-size: 23px;
+font-weight: 700;
+color:#283492;}
+.form-container {
+    background-color: #eaeaff;
+    border-radius: 12px;
+    padding: 20px;
+    width: 500px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.appliying-form-sec {
+    padding-left: 35px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.form-experience{
+    margin-top: 7px;
+}
+label {
+    font-size: 10px;
+}
+input[type="text"], input[type="email"], input[type="tel"], input[type="date"], input[type="file"], select {
+  
+    font-size: 10px;
+}
+button, input, optgroup, select, textarea {
+   
+    font-size: 10px !important;
+  
+}
+h2 {
+    text-align: center;
+    color: #2a2f88;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+
+
+@media (max-width: 768px) {
+    .info-image-career {
+        width: 79% !important;
+        margin-left: 0px !important;
+        margin-top: 0px !important;
+        z-index: 4;
+        position: relative;
+        border-bottom: 4px solid #283492;
+    }
+    .carrer-form {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+        .menu-section {
+            height: 35vh !important;
+        }
+}
+.paddding-forms{
+    padding-top: 20px;}
+    label {
+        display: block;
+        font-weight: bold;
+        color: #333;
+        margin-bottom: 5px;
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    input[type="date"],
+    input[type="file"],
+    select {
+        width: calc(100% - 20px);
+        padding: 8px;
+        margin: 5px 0;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #fff;
+    }
+    
+    input[type="radio"] {
+        margin-right: 5px;
+    }
+    
+    .form-group div {
+        display: flex;
+        gap: 15px;
+    }
+    
+    .submit-c-button {
+        width: 100%;
+        padding: 10px;
+        background-color: #2a2f88;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    
+    .submit-c-button:hover {
+        background-color: #1f2566;
+    }
+    body{
+        font-family: arial;
+    }

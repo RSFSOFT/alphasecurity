@@ -1,0 +1,531 @@
+ .top-bar-home{
+    background-color: #0e112d !important;
+    opacity: 0.9;}
+    .home-number{
+        height: 36px;
+        width: 155px;
+        background-color: #47495e;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid transparent;
+        border-radius: 22px;
+    }
+    .left-menu-sliders{
+      margin-left: -160px;
+    }
+    
+.sticky-menu .menu-link {
+  color: #fff; /* White text color */
+  margin: 0 15px;
+}
+
+.sticky-menu .menu-logo img {
+  max-width: 120px; /* Ensure the logo size is appropriate */
+}
+div#carouselExampleIndicators {
+  display: flex;
+  justify-content: center;
+}
+.sticky-menu .NAV-BTN-HOME {
+  background-color: #ff6600; /* Example button color */
+  color: #fff;
+}
+
+.sticky-menu{
+  z-index: 19;
+  position: fixed;
+}
+/* .carousel-item {
+  position: relative;
+  height: 100vh;
+} */
+
+.video-background video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.header {
+  position: relative;
+  z-index: 1;
+}
+
+.slider-heading-home {
+  color: #fff;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 3rem;
+}
+
+.breadcrumb.center-list {
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+  
+    @font-face {
+      font-family: 'myfont';
+      src: url('./font/Montserrat-Bold.otf') format('otf'),
+      url('./font/Montserrat-Regular.otf') format('otf');
+      font-weight: normal;
+      font-style: normal;
+    }
+    body{
+      font-family: arial !important;
+    }
+
+@FONT-FACE {
+  font-family: 'Montserrat-Medium';
+  src: url('./font/FontsFree-Net-Montserrat-Medium.ttf') format('otf');
+
+}
+    @font-face {
+      font-family: 'myfontbold';
+      src: url('./font/Montserrat-Bold.otf') format('otf'),
+      url('./font/Montserrat-Bold.otf') format('otf');
+      font-weight: bold;
+      font-style: normal;
+    }
+    .email-home{
+        height: 36px;
+            width: 242px;
+            background-color: #47495e;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid transparent;
+            border-radius: 22px;
+    }
+    .social-icon-home {
+        background-color: #44465b;
+        border-radius: 50%;
+        padding: 10px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        text-decoration: none;
+    }
+
+
+
+    .menu-section {
+        position: relative;
+        overflow: hidden;
+        height: 60vh; /* Adjust the height as needed */
+        z-index: 1;
+    }
+    
+    .video-background {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        z-index: -1;
+    }
+    
+    .video-background video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        opacity: 0.7; /* Adjust transparency as needed */
+    }
+    
+    .menu-section .container {
+        position: relative;
+        z-index: 2;
+        color: white; /* Ensure text is visible over the video */
+    }
+    
+    .menu-link {
+        color: white; /* Ensure the menu links are visible */
+        margin: 0 10px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    
+    .menu-link:hover {
+        color: #ffcc00; /* Highlight color on hover */
+    }
+    
+    .slider-heading {
+        color: white; /* Ensure heading is visible over the video */
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    .breadcrumb {
+        color: white;
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    .QUATE-BTN {
+      BACKGROUND-COLOR: #283492;
+      BORDER: 1PX SOLID WHITE;
+      COLOR: WHITE;
+      FONT-SIZE: 12PX !important;
+      padding: 5PX;
+  }
+.NAV-BTN-HOME{
+    background-color: red !important;
+    BORDER: NONE !important;
+    FONT-SIZE: 12PX !important;
+    BORDER-RADIUS: 33PX !important;
+}
+.LOGO-HOME {
+  max-width: 150px;
+  max-height: 100px;
+  margin-left: -41px;
+  margin-top: -36px;
+}
+    /* .menu-left-home{
+      
+            margin-left: 170px;
+    } */
+    .menu-left-home a{
+      font-size: 10px !important;
+      font-family: arial !important;
+    }
+    .right-menu-home a{
+      font-size: 10px !important;
+      font-family: arial !important;
+    }
+    .right-menu.d-flex.align-items-center.right-menu-home {
+        margin-right: 150px;
+    }
+    .slider-heading-home {
+        font-size: 35px !important;
+        color: white;
+       
+        text-align: center;
+        /* padding-top: 220px; */
+        padding-bottom: 20px;
+    }
+    p.wow.fadeInRight {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+    .info-image-home {
+        max-width: 100%;
+        height: 411px;
+        /* margin-left: 109px; */
+        border-radius: 15px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .about-home {
+        color: #283492;
+        font-size: 14px;
+        padding-left: 20px;
+    }
+    .info-heading-home {
+        font-size: 32px;
+        font-weight: bold;
+        color: #283492;
+        padding-left: 20px;
+    }
+    .info-paragraph-home {
+        font-size: 12px;
+        color: #555;
+        margin-top: 10px;
+       padding-left: 20px;
+    }
+    .read-more-btn-home {
+        display: inline-flex;
+        align-items: center;
+        padding: 5px 5px;
+        background-color: #2834aa;
+        color: white;
+        text-transform: uppercase;
+        font-family: Arial, sans-serif;
+        font-weight: bold;
+        font-size: 13px;
+        font-weight: 100;
+        text-decoration: none;
+        margin-left: 20px;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
+
+    .read-more-btn:hover {
+        background-color: #1a2780; /* Darker blue on hover */
+    }
+
+    .read-more-btn svg {
+        margin-left: 10px;
+    }
+    .THIRD-SEC-HOME{
+       COLOR: #1a2780;
+    }
+
+    .card-img-top {
+        height: 250px;
+        object-fit: cover;
+    }
+    .card-title {
+        text-align: center;
+        font-weight: bold;
+        margin-top: 10px;
+        FONT-SIZE: 15PX;
+        COLOR: #1a2780 ! IMPORTANT;
+    }
+    .card-body-BTN{
+        BACKGROUND-COLOR: WHITE;
+    WIDTH: 85%;
+    DISPLAY: FLEX;
+    JUSTIFY-CONTENT: CENTER;
+    ALIGN-ITEMS: CENTER;
+    MARGIN-LEFT: 20PX;
+    MARGIN-RIGHT: 20PX;
+    COLOR: #1a2780;
+    BORDER-RADIUS: 21PX;
+    MARGIN-TOP: -35PX;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .CARD-BORDER{
+        border: NONE !important;
+
+    }
+    .card-img-topS{
+        border-radius: 17PX;
+        border-top-left-radius: 17PX  !important;
+         border-top-right-radius: 17PX!IMPORTANT;
+    }
+   
+    .sponsor-slider {
+        background-color: #003DA5; /* Adjust as needed */
+        padding: 20px;
+        text-align: center;
+    }
+    
+    .slider-wrapper {
+        display: flex;
+        overflow: hidden;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .sponsor {
+        margin: 0 15px; /* Space between sponsors */
+    }
+    
+    .sponsor img {
+        max-height: 80px; /* Adjust height as needed */
+    }
+    
+    .slider-nav {
+        margin-top: 10px;
+    }
+    
+    button.prev, button.next {
+        background-color: transparent;
+        border: none;
+        color: white; /* Adjust color as needed */
+        font-size: 24px;
+        cursor: pointer;
+    }
+    
+    .carousel-inner .col {
+        padding: 5px; /* Adjust padding as needed */
+    }
+    
+    .carousel-item img {
+      height: auto;
+      max-height: 265px;
+      margin-top: 270px;
+  }
+  .CLIENT-SLIDERS {
+    background-color: #003DA5 !important;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+    .IMG-CLIENTS{
+        width: 265px  !important;
+
+    }
+
+
+
+    *,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.test {
+  font-family: monospace;
+  font-size: 1.25rem;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-color: #262626;
+}
+
+/* need a solution for the next 2 properties */
+li {
+  list-style: none;
+}
+
+a {
+  color: #0048ff !important;
+text-decoration: none !important;
+}
+
+.nav-bar {
+  min-height: 4.375em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+}
+
+.nav-branding {
+  font-size: 2rem;
+  font-weight: 600;
+  transition: color 500ms ease;
+}
+
+.nav-branding:hover, .nav-branding:focus {
+  color: dodgerblue;
+}
+
+.nav-menu {
+    position: fixed;
+    left: -100%;
+    top: -0.625em;
+    flex-direction: column;
+    background-color: rgba(38, 38, 38, 0.85);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: 750ms;
+}
+
+.nav-menu.active {
+    left: 0;
+    z-index: 8;
+}
+
+.nav-item {
+  margin: 1em 0;
+  margin-top: 22px;
+}
+
+.nav-link {
+  transition: 400ms ease;
+}
+
+.nav-link:hover, .nav-link:focus {
+  color: dodgerblue;
+
+}
+
+.hamburger {
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  background-color: #fff;
+  width: 24px;
+  /* The following 2 properties are essential in creating the "X" when the hamburger is clicked. If you change just 1 of the 2, then you need to find the proper combination for the other one */
+  height: 2px;
+  margin: 6px auto;
+
+  /*    -webkit-transition: all 300ms ease;  */
+  transition: all 300ms ease-in-out;
+}
+
+.hamburger.active .bar:nth-child(2) {
+  opacity: 0
+}
+
+.hamburger.active .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+@media (min-width: 768px) {
+.mobl-fotter-centerlization{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+  .nav-menu {
+    position: static;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1em;
+    width: auto;
+  }
+  header {
+    display: none;
+}
+
+  .hamburger {
+    display: none;
+  }
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+/* Increase slider height */
+.carousel-item {
+  height: 100vh; /* Full viewport height */
+}
+
+/* Make the video or image cover the entire height */
+.video-background video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Center the content vertically within the slide */
+.menu-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+/* Increase content heading and button spacing */
+.slider-heading-home {
+  font-size: 2.5rem; /* Increase the font size */
+  margin-bottom: 20px; /* Add more space below the heading */
+}
+
+.QUATE-BTN {
+  padding: 12px 15px; /* Increase button size */
+  font-size: 1.2rem;
+}

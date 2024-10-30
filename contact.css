@@ -1,0 +1,252 @@
+.slider-heading {
+    color: white;
+    text-align: left;
+    margin-top: 20px;
+}
+.slider-heading {
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    padding-top: 35px;
+    padding-bottom: 10px;
+}
+.breadcrumb.center-list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.menu-section {
+    position: relative;
+    overflow: hidden;
+    height: 60vh;
+    z-index: 1;
+}
+.form-sec{border: none;
+border-radius: 10px;
+background-color: #e0e0ea;
+margin-top: -179px !important;
+z-index: 1;}
+button.btn.btn-submit {
+    background-color: #1a2780;
+    
+    color: white;
+}
+.keep-heading{
+    font-size: 25px;
+}
+.form-rows{display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;}
+.message-row{padding-left: 15px;
+padding-right: 15px;}
+.form-heading{font-size: 20px;
+    color: #1a2780;
+    padding-top: 10px;}
+    .button-form-padding{
+    padding-bottom: 10px;}
+    .contact-info {
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        max-width: 400px;
+        text-align: center;
+    }
+    
+    .email-phone .info-item {
+        margin-bottom: 15px;
+    }
+    
+    .icon-circle {
+        width: 40px;
+        height: 40px;
+        background-color: #E0E0EB;
+        color: #1A2780;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        margin-bottom: 10px;
+    }
+    strong.email-addreass {
+        margin-left: -73px;
+        font-weight: 400;
+        color: #b92626;
+    }
+    .phone-addreass{
+        font-weight: 400;
+        color: #b92626; 
+    }
+    .location-heading{
+        text-align: left;
+        color: #2636a5;
+    }
+    
+    .email-link{    font-weight: 500;
+        text-decoration: none;
+        color: #2636a5;}
+    .email-div{
+        font-size: 12px;
+        margin-top: -8px;
+    }
+    .icon-circle i {
+        font-size: 18px;
+    }
+    strong.email-addreass {
+        margin-left: -73px;
+    }
+    a {
+        text-decoration: none;
+        color: #007BFF;
+    }
+    
+    a:hover {
+        text-decoration: underline;
+    }
+    
+    .location-section {
+        margin: 20px 0;
+    }
+    .social-icons .icon-circle {
+        font-size: 18px;
+        width: 30px;
+        height: 30px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        background-color: #E0E0EB;
+        color: #1A2780;
+    }
+    
+    .icons-socials{
+        justify-content: left;
+    display: flex;
+    margin-left: -15px;
+    }
+    .locations {
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 10px;
+        gap: 12px;
+    }
+    label {
+        font-size: 12px;
+    }
+  
+    
+    .location-item {
+        background-color: #E0E0EB;
+        padding: 8px 15px;
+        border-radius: 33px;
+        font-size: 14px;
+        color: #2636a5;
+        display: flex;
+        align-items: center;
+    }
+    .location-item i {
+        margin-right: 5px;
+        color: #ff5252;
+    }
+    .col-md-5.form-sec {
+        height: 404px;
+    }
+    .social-media .social-icons a {
+        margin: 0 10px;
+        display: inline-block;
+    }
+    .contacts-sec-row{
+        display: flex !important;
+        
+    }
+    .info-item {
+        display: flex;
+        align-items: center;
+    }
+/* Placeholder styles for various browsers */
+input::placeholder,
+textarea::placeholder {
+    font-size: 16px;
+}
+
+input::-webkit-input-placeholder, 
+textarea::-webkit-input-placeholder {
+    font-size: 16px;
+}
+
+input::-moz-placeholder, 
+textarea::-moz-placeholder {
+    font-size: 16px;
+}
+
+input:-ms-input-placeholder, 
+textarea:-ms-input-placeholder {
+    font-size: 16px;
+}
+
+input::-ms-input-placeholder, 
+textarea::-ms-input-placeholder {
+    font-size: 16px;
+}
+/* More specific placeholder styles with !important */
+input::placeholder,
+textarea::placeholder {
+    font-size: 16px !important;
+}
+
+input::-webkit-input-placeholder, 
+textarea::-webkit-input-placeholder {
+    font-size: 16px !important;
+}
+
+input::-moz-placeholder, 
+textarea::-moz-placeholder {
+    font-size: 16px !important;
+}
+
+input:-ms-input-placeholder, 
+textarea:-ms-input-placeholder {
+    font-size: 16px !important;
+}
+
+input::-ms-input-placeholder, 
+textarea::-ms-input-placeholder {
+    font-size: 16px !important;
+}
+.custom-placeholder::placeholder {
+    font-size: 16px !important;
+    color: #888888; /* You can add color to test if it's working */
+}
+
+.custom-placeholder::-webkit-input-placeholder {
+    font-size: 16px !important;
+}
+
+.custom-placeholder::-moz-placeholder {
+    font-size: 16px !important;
+}
+
+.custom-placeholder:-ms-input-placeholder {
+    font-size: 16px !important;
+}
+
+.custom-placeholder::-ms-input-placeholder {
+    font-size: 16px !important;
+}
+
+@media (max-width: 768px) {
+    .slider-heading {     
+        text-align: center !important;        
+    }
+    .breadcrumb.center-list {
+        justify-content: center !important; 
+    }
+    .form-sec {
+    
+        margin-top: 0px !important;
+     
+    }
+
+}

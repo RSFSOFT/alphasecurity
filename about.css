@@ -1,0 +1,245 @@
+.info-image-about{width: 79% !important;
+margin-left: 106px;
+position: relative;
+border-bottom:4px solid #283492 ;
+}
+.abt-img-style {
+    width: 100%;
+    height: auto;
+}
+
+
+.info-paragraph-abt{
+    font-size: 12px;
+    color: #555;
+    margin-top: 10px;
+}
+.second-heading-abt-pg {
+    color: #283492;
+    font-size: 17px;
+    padding-left: 96px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg-abt-pg{
+    background-image: url("./images/high-angle-security-team-prevention.jpg");
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/**/
+
+ul li {
+    margin-bottom: 15px;
+    display: block !important;
+    align-items: center;
+    font-size: 1.1em;
+}
+.values-section {
+    display: flex;
+    max-width: 730px;
+    margin: 0 auto;
+    /* border: 1px solid #e0e0e0;
+    background-color: #fff; */
+}
+
+.sidebar {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    justify-content: start;
+    align-items: start;
+    padding: 30px 0;
+}
+
+.sidebar-item {
+    display: flex;
+    /* align-items: center; */
+    padding: 10px 20px;
+    margin: 0 0 5px;
+    color: #333;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.sidebar-item span {
+    font-size: 8px;
+    margin-right: 15px;
+}
+
+
+.sidebar-item.active {
+    background-color: #002d84;
+    color: #fff;
+    font-size: 8px;
+}
+
+/* .sidebar-item.active .arrow-box {
+    background-color: #d81e36;
+} */
+
+.arrow-box {
+    width: 20px; /* Width of the arrow box */
+    height: 20px; /* Height of the arrow box */
+    /*background-color: #002d84;  Arrow box color */
+    position: relative;
+}
+
+.arrow-box::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 100%;
+    margin-left: 5px;
+    width: 0;
+    height: 0;
+    border-top: 10px solid  transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid #002d84; /* Arrow color */
+    transition: border-left-color 0.3s;
+}
+
+.sidebar-item.active .arrow-box::after {
+    border-left-color: #d81e36; /* Active arrow color */
+}
+
+.content {
+    width: 75%;
+    padding: 30px;
+}
+
+.content h2 {
+    color: #d81e36;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.content ul {
+    list-style: none;
+}
+
+.content li {
+    font-size: 11px;
+    margin-bottom: 15px;
+}
+
+.content li strong {
+    color: #333;
+}
+
+.menu-section{
+    height: 50vh !important;
+}
+@media (max-width: 768px) {
+    .info-image-about {
+        width: 100% !important;
+         margin-left: 0px; 
+        margin-top: -41px;
+        z-index: 4;
+        /* position: relative; */
+        border-bottom: 4px solid #283492;
+    }
+    .container {
+        width: 100% !important;
+        margin: 0 auto;
+    }
+    .d-flex {
+        display: flex !important;
+        justify-content: center;
+    }
+    .fotter-link ul {
+        list-style: none;
+         margin-left: 0px; 
+    }
+    .second-heading-abt-pg {
+        color: #283492;
+        font-size: 17px;
+      padding-left: 0px; 
+        padding-top: 10px;
+        justify-content: center;
+        animation: c;
+        display: flex;
+    }
+    .menu-section {
+        height: 20vh !important;
+    }
+    
+    
+}
+
+
+.why-choose-img {
+    width: 84%;
+    margin-top: 0px !important;
+    object-fit: contain;
+}
+p{
+    font-size:11px;
+}
+
+body{
+    font-family: arial;
+}
+.menu-left-home a {
+    font-size: 10px;
+    font-family: arial;
+}
+.right-menu-home a {
+    font-size: 10px;
+    font-family: arial;
+}
+.menu-link {
+    font-size: 10px;
+    font-family: arial;
+}
+
+.menu-sticky {
+    position: sticky;
+
+    z-index: 1000; /* Ensure it is above other content */
+    background-color: #fff; /* Background color for visibility */
+    padding: 10px 0; /* Optional: Adjust padding for visual appeal */
+}
+
+.menu-sticky .container {
+    max-width: 1200px; /* Set maximum width for the container */
+    margin: 0 auto; /* Center the container */
+}
+
+.logo {
+    max-height: 120px;
+
+        max-width: 150px;
+        max-height: 100px;
+        margin-left: -49px;
+        margin-top: -12px;
+    }
+
+.menu-link {
+    padding: 10px 20px; /* Padding for menu links */
+    color: #ffffff; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+.menu-link:hover {
+    color: #007bff; /* Change color on hover */
+}
+
+.NAV-BTN-HOME {
+    padding: 10px 20px; /* Button padding */
+}
+
+.menu-sticky {
+    position: fixed;
+    top: 45px;
+    z-index: 1000;
+    background-color: #ffffff00;
+    padding: 10px 0;
+    width: 100%;
+}
