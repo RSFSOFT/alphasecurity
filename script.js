@@ -49,3 +49,14 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 });
+window.addEventListener('scroll', function() {
+    var nonStickyMenu = document.querySelector('.non-sticky-menu');
+    var stickyMenu = document.querySelector('.sticky-menu');
+    var menuHeight = nonStickyMenu.offsetHeight;
+    
+    if (window.scrollY > menuHeight) {
+        document.body.classList.add('sticky-active');
+    } else {
+        document.body.classList.remove('sticky-active');
+    }
+});
