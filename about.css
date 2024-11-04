@@ -1,7 +1,7 @@
 .info-image-about{width: 79% !important;
 margin-left: 106px;
 position: relative;
-border-bottom:4px solid #283492 ;
+
 }
 .abt-img-style {
     width: 100%;
@@ -36,6 +36,7 @@ ul li {
     display: block !important;
     align-items: center;
     font-size: 1.1em;
+
 }
 .values-section {
     display: flex;
@@ -43,6 +44,7 @@ ul li {
     margin: 0 auto;
     /* border: 1px solid #e0e0e0;
     background-color: #fff; */
+    padding-left: 13px;
 }
 
 .sidebar {
@@ -68,7 +70,7 @@ ul li {
 }
 
 .sidebar-item span {
-    font-size: 8px;
+    font-size: 7px;
     margin-right: 15px;
 }
 
@@ -143,7 +145,7 @@ ul li {
         margin-top: -41px;
         z-index: 4;
         /* position: relative; */
-        border-bottom: 4px solid #283492;
+       
     }
     .container {
         width: 100% !important;
@@ -167,10 +169,19 @@ ul li {
         display: flex;
     }
     .menu-section {
-        height: 20vh !important;
+        height: 60vh !important;
     }
-    
-    
+    .container.mob-menu-sticky {
+        margin-top: 89.5px !important;
+    }
+    .mobl-logo {
+        width: 47px;
+        object-fit: cover;
+        margin-left: 186px !important;
+    }
+    .abus-cont-mob {
+        margin-top: 65px;
+    }
 }
 
 
@@ -221,11 +232,11 @@ body{
         margin-top: -12px;
     }
 
-.menu-link {
-    padding: 10px 20px; /* Padding for menu links */
-    color: #ffffff; /* Link color */
-    text-decoration: none; /* Remove underline */
-}
+    .menu-link {
+        padding: 0px 8px;
+        color: #ffffff;
+        text-decoration: none;
+    }
 
 .menu-link:hover {
     color: #007bff; /* Change color on hover */
@@ -242,4 +253,54 @@ body{
     background-color: #ffffff00;
     padding: 10px 0;
     width: 100%;
+}
+/* header css */
+.non-sticky-menu {
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+    padding-top: 0px;
+}
+.LOGO-HOME {
+    max-width: 150px;
+    max-height: 100px;
+    margin-left: -41px;
+    margin-top: -41px;
+    z-index: 500;
+}
+.menu-section {
+
+    z-index: auto;
+}
+
+.non-sticky-menu {
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+    padding-top: 0px;
+    margin-top: -136px;
+}
+img.LOGO-HOME.sticky-logo {
+    margin-top: 0px;
+}
+
+
+.sticky-menu .menu-link {
+   
+    margin: 0;
+}
+.slider-heading {
+    font-size: 27px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 10px;
+}
+.right-menu.d-flex.align-items-center.right-menu-home {
+    margin-right: 0px !important;
+    margin-left: -498px;
+}
+.right-menu.d-flex.align-items-center.right-menu-home.col-12.stic-menu-sty {
+    margin-left: -439px !important;
 }

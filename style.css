@@ -72,7 +72,7 @@
 
 .right-menu .btn {
     font-size: 16px;
-    padding: 8px 20px;
+    padding: 5px 20px;
 }
 .slider-heading{
   font-size: 50px;
@@ -590,10 +590,10 @@ section#faq {
     .mob-logo{
         display: none !important;
     }
-    .fotter-contect{
-padding-left: 5px;
-color: white;
-text-decoration: none;
+    .fotter-contect {
+        padding-left: 3px;
+        color: white;
+        text-decoration: none;
     }
     a.text-white.me-3.social-icon {
         text-decoration: none;
@@ -651,18 +651,18 @@ text-decoration: none;
         /* ul.nav-menu.active {
             z-index: 8;
         } */
-
-       .btn-header-mob {
-            background-color: red;
-            color: white;
-            border: none;
-            font-size: 14px;
-            padding-top: 5px;
-            padding-bottom: 5px;
-            padding-left: 5px;
-            padding-right: 5px;
-            border-radius: 36px;
-        }
+            .btn-header-mob {
+                background-color: red;
+                color: white;
+                border: none;
+                font-size: 14px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 10px;
+                padding-right: 10px;
+                border-radius: 36px;
+            }
+        
         .container.d-flex.justify-content-between.align-items-center.desk-menues {
             display: none !important;
         }

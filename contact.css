@@ -39,8 +39,11 @@ button.btn.btn-submit {
     justify-content: center;
     align-items: center;
     gap: 10px;}
-.message-row{padding-left: 15px;
-padding-right: 15px;}
+    .message-row {
+        padding-left: 5px;
+        padding-right: 15px;
+        width: 245px;
+    }
 .form-heading{font-size: 20px;
     color: #1a2780;
     padding-top: 10px;}
@@ -248,5 +251,12 @@ textarea::-ms-input-placeholder {
         margin-top: 0px !important;
      
     }
+    .form-sec {
+      
+        background-color: transparent;
+    
+        z-index: 1;
+    }
+    
 
 }

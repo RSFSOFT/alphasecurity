@@ -9,11 +9,84 @@
     <link rel="stylesheet" href="styless.css">
     <link rel="stylesheet" href="about.css">    
     <link rel="stylesheet" href="carrer.css">
+    <link rel="stylesheet" href="fotter-style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="script.js"></script>
+    <style>
+        /* header css */
+.non-sticky-menu {
+   position: absolute;
+   width: 100%;
+   z-index: 2;
+   padding-top: 0px;
+}
+.fotter-link ul {
+    list-style: none;
+    margin-left: -30px;
+}
+
+
+.LOGO-HOME {
+   max-width: 150px;
+   max-height: 100px;
+   margin-left: -41px;
+   margin-top: -41px;
+   z-index: 500;
+}
+.menu-section {
+
+   z-index: auto;
+}
+
+.non-sticky-menu {
+   position: absolute;
+   width: 100%;
+   z-index: 2;
+   padding-top: 0px;
+   margin-top: -165px;
+}
+img.LOGO-HOME.sticky-logo {
+   margin-top: -64px;
+}
+
+
+.sticky-menu .menu-link {
+  
+   margin: 0;
+}
+.non-sticky-menu {
+    position: absolute;
+    width: 100%;
+    z-index: 19;
+    padding-top: 0px;
+    margin-top: -165px;
+}
+.slider-heading {
+   font-size: 27px;
+   color: white;
+   font-weight: bold;
+   text-align: center;
+   padding-top: 90px;
+   padding-bottom: 10px;
+}
+.right-menu.d-flex.align-items-center.right-menu-home {
+   margin-right: 0px !important;
+   margin-left: -498px;
+}
+.right-menu.d-flex.align-items-center.right-menu-home.col-12.stic-menu-sty {
+   margin-left: -439px !important;
+}
+.top-bar-home {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 19;
+}
+
+   </style>
 </head>
 <body>
 
@@ -24,53 +97,55 @@ Logo Container -->
 </div>
 
 <!-- Navbar -->
-<div class="top-bar bg-dark text-white py-2">
+<div class="top-bar-home text-white py-2">
     <div class="container">
-        <div class="row align-items-center">
+        <div class="row align-items-center ">
             <!-- Left Side: Phone and Email -->
             <div class="col-md-6 col-sm-12 d-flex align-items-center justify-content-center justify-content-md-start text-center text-md-start">
-                <span class="me-4">
+                <span class="me-4 home-number">
                     <i class="fas fa-phone-alt me-1"></i> +1 877-725-7422
                 </span>
-                <span>
-                    <i class="fas fa-envelope me-1"></i> info@example.com
+                <span class="email-home">
+                    <i class="fas fa-envelope me-1"></i> info@alphasecurityservices.ca
                 </span>
             </div>
 
             <!-- Right Side: Social Media Icons -->
-            <div class="col-md-6 col-sm-12 d-flex justify-content-center justify-content-md-end mt-2 mt-md-0">
-                <a href="https://www.facebook.com" class="text-white me-3 social-icon">
+            <div class="col-md-6 col-sm-12 d-flex justify-content-center justify-content-md-center mt-2 mt-md-0">
+                <div class="social-icons-d">                <a href="https://www.facebook.com" class="text-white me-3 social-icon-home">
                     <i class="fab fa-facebook-f"></i>
                 </a>
-                <a href="https://www.twitter.com" class="text-white me-3 social-icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+                <a href="https://www.twitter.com" class="text-white me-3 social-icon-home">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="13" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
                         <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
                     </svg>
                 </a>
-                <a href="https://www.instagram.com" class="text-white me-3 social-icon">
+                <a href="https://www.instagram.com" class="text-white me-3 social-icon-home">
                     <i class="fab fa-instagram"></i>
                 </a>
-                <a href="https://www.linkedin.com" class="text-white me-3 social-icon">
+                <a href="https://www.linkedin.com" class="text-white me-3 social-icon-home">
                     <i class="fab fa-linkedin-in"></i>
                 </a>
+            </div>
+
             </div>
         </div>
     </div>
 </div>
 <header>
-    <div class="container bg-header">
+    <div class="container mob-menu-sticky">
       <nav class="nav-bar">
         <a href="#" class="nav-branding"><img src="./images/logo.png" alt="" class="mobl-logo"></a>
   
         <ul class="nav-menu">
           <li class="nav-item">
-            <a href="#" class="nav-link">Home</a>
+            <a href="./index.html" class="nav-link">Home</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">About Us</a>
+            <a href="./about-us.html" class="nav-link">About Us</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">Security Guards</a>
+            <a href="./ONTARIO SECURITY GUARD COURSE.html" class="nav-link">Security Guards</a>
           </li>
           <li class="nav-item">
             <a href="#" class="nav-link">Security Systems</a>
@@ -79,12 +154,12 @@ Logo Container -->
             <a href="#" class="nav-link">Training</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">Career</a>
+            <a href="./career.html" class="nav-link">Career</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">Contact Us</a>
+            <a href="./contact us.html" class="nav-link">Contact Us</a>
           </li>
-          <button class="btn-header-mob">Get A Quote</button>
+          <button class="btn-header-mob"><a href="./getaquot.html">Get A Quote</a></button>
         </ul>
   
         <div class="hamburger">
@@ -97,27 +172,27 @@ Logo Container -->
   </header>
 <!-- New Section with Menu and Button -->
 <div class="menu-section ">
-    <div class="menu-sticky">
-        <div class="container d-flex justify-content-between align-items-center desk-menu">
+    <div id ="menus"class="non-sticky-menu">
+        <div class="container d-flex justify-content-between align-items-center desk-menues ">
             <!-- Left Menu Links -->
-            <div class="left-menu d-flex">
-                <a href="#" class="menu-link">Home</a>
-                <a href="#" class="menu-link">About Us</a>
-                <a href="#" class="menu-link">Security Guards</a>
+            <div class="left-menu menu-left-home d-flex col-12 left-menu-sliders">
+                <a href="./index.html" class="menu-link">Home</a>
+                <a href="./about-us.html" class="menu-link">About Us</a>
+                <a href="./ONTARIO SECURITY GUARD COURSE.html" class="menu-link">Security Guards</a>
                 <a href="#" class="menu-link">Security Systems</a>
             </div>
     
             <!-- Logo in Center -->
             <div class="menu-logo">
-                <img src="./images/logo.png" alt="Logo" class="logo">
+                <img src="./images/logo.png" alt="Logo" class="LOGO-HOME">
             </div>
     
             <!-- Right Menu Links and Button -->
-            <div class="right-menu d-flex align-items-center">
-                <a href="#" class="menu-link">Training</a>
-                <a href="#" class="menu-link">Career</a>
-                <a href="#" class="menu-link">Contact Us</a>
-                <button class="btn btn-primary ms-4 NAV-BTN-HOME">Get A QUOTE</button>
+            <div class="right-menu d-flex align-items-center right-menu-home col-12">
+                <a href="" class="menu-link">Training</a>
+                <a href="./career.html" class="menu-link">Career</a>
+                <a href="./contact us.html" class="menu-link">Contact Us</a>
+                <button class="btn btn-primary ms-4 NAV-BTN-HOME quote-btn"><a href="./getaquot.html">Get A Quote</a></button>
             </div>
         </div>
     </div>
@@ -131,6 +206,30 @@ Logo Container -->
             <span class="current">Live Remote Monitoring</span>
         </div>
     </div>
+    <div id ="menus"class="sticky-menu">
+        <div class="container d-flex justify-content-between align-items-center desk-menues ">
+            <!-- Left Menu Links -->
+            <div class="left-menu menu-left-home d-flex col-12 left-menu-sliders">
+                <a href="#" class="menu-link STIKY-MENU-A">Home</a>
+                <a href="./about-us.html" class="menu-link  STIKY-MENU-A">About Us</a>
+                <a href="./ONTARIO SECURITY GUARD COURSE.html" class="menu-link STIKY-MENU-A">Security Guards</a>
+                <a href="#" class="menu-link STIKY-MENU-A">Security Systems</a>
+            </div>
+    
+            <!-- Logo in Center -->
+            <div class="menu-logo">
+                <img src="./images/logo.png" alt="Logo" class="LOGO-HOME sticky-logo">
+            </div>
+    
+            <!-- Right Menu Links and Button -->
+            <div class="right-menu d-flex align-items-center right-menu-home col-12 stic-menu-sty">
+                <a href="" class="menu-link  STIKY-MENU-A">Training</a>
+                <a href="./career.html" class="menu-link STIKY-MENU-A">Career</a>
+                <a href="./contact us.html" class="menu-link STIKY-MENU-A">Contact Us</a>
+                <button class="btn btn-primary ms-4 NAV-BTN-HOME  quote-btn"><a href="./getaquot.html">Get A Quote</a></button>
+            </div>
+        </div>
+    </div> 
 </div>
 <!-- New Section -->
 <!-- New Section -->
@@ -518,8 +617,9 @@ Logo Container -->
     <p class="footer-about">Need security guard for a day, week or on 24/7 basis? Worry not, as we provide the security services in Ontario Canada. From Concierge, to Construction, Retail, event security and many more. Get in touch with us for best security services at affordable rates. Call us now.</p>
         <div class="row-fotter-btn">
             <div class="col1">
-                <button class="footer-btn-one"><a href="./getaquot.html">GET A QUOTE</a></button>
-                <button class="fotter-btn-two"><a href="./contact us.html">CONTACT US</a></button>
+                <button class="footer-btn-one quote-btn"><a href="./getaquot.html">GET A QUOTE</a></button>
+                <button class="fotter-btn-two quote-btn"><a href="./contact us.html">CONTACT US</a></button>
+                <button class="footer-btn-one quote-btn"> <a href="https://alphasecurityservices.ca/files/catalog/Broucher2_ALL%20ONE%20SIDE%20online.pdf">Download Brochure</a></button>
             </div>
         </div>
 </div>
@@ -529,13 +629,13 @@ Logo Container -->
     <h3>Quick Links</h3>
     <ul>
         <li>
-           <a href="./index.html"> Home</a>
+           <a class="link-style-fotter" href="./index.html"> Home</a>
         </li>
         <li>
-            <a href="./about-us.html">About Us</a>
+            <a class="link-style-fotter" href="./about-us.html">About Us</a>
         </li>
         <li>
-           <a href="./OUR-SERVICES.html"> Services</a>
+           <a class="link-style-fotter" href="./OUR-SERVICES.html"> Services</a>
         </li>
         <li>
             Blog
@@ -544,15 +644,72 @@ Logo Container -->
         Training
     </li>
     <li>
-       <a href="./career.html"> Career</a>
+       <a class="link-style-fotter" href="./career.html"> Career</a>
     </li>
-    <li>
-        <a href="./contact us.html">Contact Us</a>
-    </li>
+
     </ul>
    </div>
    <div class="col-2 fotter-link">
-    <h3>Contact Us</h3>
+   <h3>Quick Links</h3>
+    <ul>
+        <li>
+           <a class="link-style-fotter" href="./ONTARIO%20SECURITY%20GUARD%20COURSE.html"> Security Guards</a>
+        </li>
+        <li>
+            <a class="link-style-fotter" href="#">Security Systems</a>
+        </li>
+        <li>
+            <a class="link-style-fotter" href="#"> Yard Security</a>
+         </li>
+         <li>
+             <a class="link-style-fotter" href="#">Mobile Patrol</a>
+         </li>
+    </ul>
+
+    <div class="social-menu">
+        <ul class="fotter-socials-icons">
+            <li><a href="https://www.facebook.com/Alpha-Security-Services-Canada-106399967772862/?modal=admin_todo_tour" target="blank"><i class="fab fa-facebook-square"></i></a>
+            </li>
+            <li><a href="https://www.instagram.com/alphasecurityservices/" target="blank"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://www.linkedin.com/company/78133698/" target="blank"><i class="fab fa-linkedin-in"></i></a></li>
+            <li><a href=" https://twitter.com/alpha_securitys"><i class="fab fa-twitter"></i></a>
+            </li>
+        </ul>
+    </div>
+    
+    <!-- <h3>Contact Us</h3>
+    <ul>
+        Envelop icon 
+<li><i class="fas fa-envelope"></i><a class="fotter-contect" href="mailto:info@alphaseecurityservices.ca
+    ">info@alphaseecurityservices.ca</a>
+</li>
+Phone number icon 
+<li><i class="fas fa-phone-alt"></i> <a class="fotter-contect" href="tel:+18777257422">+1 877-725-7422</a>
+</li>
+<li> <i style="font-size:10px" class="fa">&#xf041;</i><a class="fotter-contect" >9-764 Stirling Ave S Kitchener, ON N2M 3K3
+
+</a>
+</li>   
+<li> <i style="font-size:10px" class="fa">&#xf041;</i><a class="fotter-contect" >297 Horton St E London On N6G 1L2 Canada
+</a>
+</li>  
+<li> <i style="font-size:10px" class="fa">&#xf041;</i><a class="fotter-contect" >279 Kenilworth Ave N (Office#8),Hamilton, ON L8H 4S8.
+</a>
+</li>  
+<li> <i style="font-size:10px" class="fa">&#xf041;</i><a class="fotter-contect" >18 Stockdale Rd, Trenton, ON K8V 5P6.
+</a>
+</li>      
+</ul> -->
+   
+    <!-- <DIV class="col-4">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11590.085278683327!2d-80.496486!3d43.428827!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882bf506d52fa451%3A0x488a33bb3b55febc!2s764%20Stirling%20Ave%20S%2C%20Kitchener%2C%20ON%20N2M%203K3%2C%20Canada!5e0!3m2!1sen!2sin!4v1728468579281!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </DIV>
+    <DIV class="col-4">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11590.085278683327!2d-80.496486!3d43.428827!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882bf506d52fa451%3A0x488a33bb3b55febc!2s764%20Stirling%20Ave%20S%2C%20Kitchener%2C%20ON%20N2M%203K3%2C%20Canada!5e0!3m2!1sen!2sin!4v1728468579281!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </DIV> -->
+    <!-- <div class="fotter-padding"></div> -->
+   </div>
+   <DIV class="col-3 fotter-link">     <h3>Contact Us</h3>
     <ul>
         <!-- Envelop icon -->
 <li><i class="fas fa-envelope"></i><a class="fotter-contect" href="mailto:info@alphaseecurityservices.ca
@@ -561,21 +718,82 @@ Logo Container -->
 <!-- Phone number icon -->
 <li><i class="fas fa-phone-alt"></i> <a class="fotter-contect" href="tel:+18777257422">+1 877-725-7422</a>
 </li>
-    </ul>
-   
-    <!-- <DIV class="col-4">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11590.085278683327!2d-80.496486!3d43.428827!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882bf506d52fa451%3A0x488a33bb3b55febc!2s764%20Stirling%20Ave%20S%2C%20Kitchener%2C%20ON%20N2M%203K3%2C%20Canada!5e0!3m2!1sen!2sin!4v1728468579281!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </DIV>
-    <DIV class="col-4">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11590.085278683327!2d-80.496486!3d43.428827!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882bf506d52fa451%3A0x488a33bb3b55febc!2s764%20Stirling%20Ave%20S%2C%20Kitchener%2C%20ON%20N2M%203K3%2C%20Canada!5e0!3m2!1sen!2sin!4v1728468579281!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </DIV> -->
-    <div class="fotter-padding"></div>
-   </div>
-   <DIV class="col-3 fotter-link">
-    <h3>Map </h3>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11590.085278683327!2d-80.496486!3d43.428827!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882bf506d52fa451%3A0x488a33bb3b55febc!2s764%20Stirling%20Ave%20S%2C%20Kitchener%2C%20ON%20N2M%203K3%2C%20Canada!5e0!3m2!1sen!2sin!4v1728468579281!5m2!1sen!2sin" width="420" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<li> <i style="font-size:10px" class="fa">&#xf041;</i><a class="fotter-contect" >9-764 Stirling Ave S Kitchener, ON N2M 3K3
+
+</a>
+</li>   
+<li> <i style="font-size:10px" class="fa">&#xf041;</i><a class="fotter-contect" >297 Horton St E London On N6G 1L2 Canada
+</a>
+</li>  
+<li> <i style="font-size:10px" class="fa">&#xf041;</i><a class="fotter-contect" >279 Kenilworth Ave N (Office#8),Hamilton, ON L8H 4S8.
+</a>
+</li>  
+<li> <i style="font-size:10px" class="fa">&#xf041;</i><a class="fotter-contect" >18 Stockdale Rd, Trenton, ON K8V 5P6.
+</a>
+</li>      
+</ul>
+<div class="fotter-padding"></div>
+    <!-- <h3>Map </h3>
+    <div class="map-row">
+        <div class="map-col-one">           <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11457.331642062521!2d-77.598835!3d44.117755!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d6166786e7483d%3A0x37347aef1fa7737b!2s18%20Stockdale%20Rd%2C%20Murray%2C%20ON%20K8V%205P4%2C%20Canada!5e0!3m2!1sen!2sus!4v1730376565365!5m2!1sen!2sus" width="200" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="map-col-tow">           
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11624.487400934402!2d-79.806612!3d43.248868!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882c99380fea1deb%3A0xc3ad1614e55be90e!2s279%20Kenilworth%20Ave%20N%20%238%2C%20Hamilton%2C%20ON%20L8H%204S8%2C%20Canada!5e0!3m2!1sen!2sus!4v1730376606182!5m2!1sen!2sus" width="200" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                </div>
+    </div> 
+    <div class="map-row">
+        <div class="map-col-one">    
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d729.7270070318888!2d-81.241456!3d42.980211!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882ef21a10000555%3A0x48e771e8e952b590!2s297%20Horton%20St%20E%2C%20London%2C%20ON%20N6B%201L4%2C%20Canada!5e0!3m2!1sen!2sus!4v1730376662418!5m2!1sen!2sus" width="200" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="map-col-tow">          
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11590.085278683327!2d-80.496486!3d43.428827!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882bf506d52fa451%3A0x488a33bb3b55febc!2s764%20Stirling%20Ave%20S%2C%20Kitchener%2C%20ON%20N2M%203K3%2C%20Canada!5e0!3m2!1sen!2sin!4v1730376706954!5m2!1sen!2sin" width="200" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>  -->
 </DIV>
 <div class="col-2"></div>
+
+</div>
+<DIV class="col-12 desk-map-space-fix ">
+    <div class="d-flex justify-content-center">
+<h3>Offices Locations </h3>
+</div>
+<div class="row d-flex justify-content-center">
+<div class="address-office-map">
+<span class="office-t">Office 1: 9-764 Stirling Ave S Kitchener, ON N2M 3K3 
+</span>
+</div>
+<div class="address-office-map">
+<span class="office-tw">Office 2: 297 Horton St E London On N6G 1L2 Canada 
+</span>
+</div>
+<div class="address-office-map">
+<span class="office-tw">Office 3: 279 Kenilworth Ave N (Office#8),Hamilton, ON L8H 4S8.
+</span>
+</div>
+<div class="address-office-map">
+<span class="office-tw">Office 4: 18 Stockdale Rd, Trenton, ON K8V 5P6.
+</span>
+</div>
+</div>
+    <div class="map-row d-flex justify-content-center">
+        
+        <div class="map-col-one">  <div>       <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11457.331642062521!2d-77.598835!3d44.117755!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d6166786e7483d%3A0x37347aef1fa7737b!2s18%20Stockdale%20Rd%2C%20Murray%2C%20ON%20K8V%205P4%2C%20Canada!5e0!3m2!1sen!2sus!4v1730376565365!5m2!1sen!2sus" width="300" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>                </div>
+       
+        <div class="map-col-tow">           
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11624.487400934402!2d-79.806612!3d43.248868!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882c99380fea1deb%3A0xc3ad1614e55be90e!2s279%20Kenilworth%20Ave%20N%20%238%2C%20Hamilton%2C%20ON%20L8H%204S8%2C%20Canada!5e0!3m2!1sen!2sus!4v1730376606182!5m2!1sen!2sus" width="300" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                </div>
+   
+        <div class="map-col-one">    
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d729.7270070318888!2d-81.241456!3d42.980211!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882ef21a10000555%3A0x48e771e8e952b590!2s297%20Horton%20St%20E%2C%20London%2C%20ON%20N6B%201L4%2C%20Canada!5e0!3m2!1sen!2sus!4v1730376662418!5m2!1sen!2sus" width="300" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="map-col-tow">          
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11590.085278683327!2d-80.496486!3d43.428827!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882bf506d52fa451%3A0x488a33bb3b55febc!2s764%20Stirling%20Ave%20S%2C%20Kitchener%2C%20ON%20N2M%203K3%2C%20Canada!5e0!3m2!1sen!2sin!4v1730376706954!5m2!1sen!2sin" width="300" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div> 
+    
+    <div class="d-flex row justify-content-center copyrights-fotter">Copyright © 2024 Alpha Security Services. All Rights Reserved
+
+    </div>
+</DIV>   
 </footer>  
 <footer class="footer-mob">
     <div class="container"></div>
@@ -585,24 +803,26 @@ Logo Container -->
     <p class="footer-about">Need security guard for a day, week or on 24/7 basis? Worry not, as we provide the security services in Ontario Canada. From Concierge, to Construction, Retail, event security and many more. Get in touch with us for best security services at affordable rates. Call us now.</p>
         <div class="row-fotter-btn">
             <div class="col1">
-                <button class="footer-btn-one">GET A QUOTE</button>
-                <button class="fotter-btn-two">CONTACT US</button>
+                <button class="footer-btn-one quote-btn">GET A QUOTE</button>
+                <button class="fotter-btn-two quote-btn">CONTACT US</button>
+                <button class="footer-btn-one quote-btn"><a href="https://alphasecurityservices.ca/files/catalog/Broucher2_ALL%20ONE%20SIDE%20online.pdf"> Download Brochure</a></button>
             </div>
         </div>
 </div>
    </div>
    
-   <div class="col-12 fotter-link">
+   <div class="col-6 fotter-link d-flex justify-content-center new-fotter-cls">
+   <div class="col-5">
     <h3>Quick Links</h3>
     <ul>
         <li>
-            <a href="./index.html"> Home</a>
+            <a class="link-style-fotter"href="./index.html"> Home</a>
          </li>
          <li>
-             <a href="./about-us.html">About Us</a>
+             <a class="link-style-fotter" href="./about-us.html">About Us</a>
          </li>
          <li>
-            <a href="./OUR-SERVICES.html"> Services</a>
+            <a class="link-style-fotter" href="./OUR-SERVICES.html"> Services</a>
          </li>
          <li>
              Blog
@@ -611,33 +831,81 @@ Logo Container -->
          Training
      </li>
      <li>
-        <a href="./career.html"> Career</a>
+        <a href="./career.html" class="link-style-fotter"> Career</a>
      </li>
      <li>
-         <a href="./contact us.html">Contact Us</a>
+         <a href="./contact us.html" class="link-style-fotter">Contact Us</a>
      </li>
+    
     </ul>
-   </div>
-   <div class="col-12 fotter-link"> 
+    </div>
+    <!---->
+    <div class="col-12">
     <h3>Contact Us</h3>
     <ul>
         <!-- Envelop icon -->
-<li><i class="fas fa-envelope"></i><a class="fotter-contect" href="mailto:info@alphaseecurityservices.ca
-    ">info@alphaseecurityservices.ca</a>
+<li><i class="fas fa-envelope"></i><a class="fotter-contect" href="mailto:info@alphaseecurityservices.ca">info@alphaseecurityservices.ca</a>
 </li>
 <!-- Phone number icon -->
 <li><i class="fas fa-phone-alt"></i> <a class="fotter-contect" href="tel:+18777257422">+1 877-725-7422</a>
 </li>
+<li> <i style="font-size:10px" class="fa">&#xf041;</i><a class="fotter-contect" >9-764 Stirling Ave S Kitchener, ON N2M 3K3
+
+</a>
+</li>   
+<li> <i style="font-size:10px" class="fa">&#xf041;</i><a class="fotter-contect" >297 Horton St E London On N6G 1L2 Canada
+</a>
+</li>  
+<li> <i style="font-size:10px" class="fa">&#xf041;</i><a class="fotter-contect" >279 Kenilworth Ave N (Office#8),Hamilton, ON L8H 4S8.
+</a>
+</li>  
+<li> <i style="font-size:10px" class="fa">&#xf041;</i><a class="fotter-contect" >18 Stockdale Rd, Trenton, ON K8V 5P6.
+</a>
+</li>  
+    </ul>
+    <div class="social-menu">
+        <ul class="fotter-socials-icons">
+            <li><a href="https://www.facebook.com/Alpha-Security-Services-Canada-106399967772862/?modal=admin_todo_tour" target="blank"><i class="fab fa-facebook-square"></i></a>
+            </li>
+            <li><a href="https://www.instagram.com/alphasecurityservices/" target="blank"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://www.linkedin.com/company/78133698/" target="blank"><i class="fab fa-linkedin-in"></i></a></li>
+            <li><a href=" https://twitter.com/alpha_securitys"><i class="fab fa-twitter"></i></a>
+            </li>
+        </ul>
+    </div>
+</div>
+   </div>
+   <!---->
+   <!-- <div class="col-12 fotter-link"> 
+    <h3>Contact Us</h3>
+    <ul>
+         Envelop icon 
+<li><i class="fas fa-envelope"></i><a class="fotter-contect" href="mailto:info@alphaseecurityservices.ca">info@alphaseecurityservices.ca</a>
+</li>
+Phone number icon 
+<li><i class="fas fa-phone-alt"></i> <a class="fotter-contect" href="tel:+18777257422">+1 877-725-7422</a>
+</li>
     </ul>
     <div class="fotter-lst-mob"></div>
-   </div>
+   </div> -->
    <div class="col-12 fotter-link"> 
-    <h3>Map </h3>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11590.085278683327!2d-80.496486!3d43.428827!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882bf506d52fa451%3A0x488a33bb3b55febc!2s764%20Stirling%20Ave%20S%2C%20Kitchener%2C%20ON%20N2M%203K3%2C%20Canada!5e0!3m2!1sen!2sin!4v1728468579281!5m2!1sen!2sin" width="325" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <h3 class="client-mobl-loc">Offices Locations </h3>
+<div class="map-row">
+<div class="map-col-one"><P class="LOC-MOB-FONT">LOCATION 1</P><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11457.331642062521!2d-77.598835!3d44.117755!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d6166786e7483d%3A0x37347aef1fa7737b!2s18%20Stockdale%20Rd%2C%20Murray%2C%20ON%20K8V%205P4%2C%20Canada!5e0!3m2!1sen!2sus!4v1730376565365!5m2!1sen!2sus" width="225" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+<div class="map-col-tow"><P class="LOC-MOB-FONT">LOCATION 2</P> <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11624.487400934402!2d-79.806612!3d43.248868!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882c99380fea1deb%3A0xc3ad1614e55be90e!2s279%20Kenilworth%20Ave%20N%20%238%2C%20Hamilton%2C%20ON%20L8H%204S8%2C%20Canada!5e0!3m2!1sen!2sus!4v1730376606182!5m2!1sen!2sus" width="225" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            
+</div>
+</div> 
+<div class="map-row">
+<div class="map-col-one"><P class="LOC-MOB-FONT">LOCATION 3</P><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d729.7270070318888!2d-81.241456!3d42.980211!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882ef21a10000555%3A0x48e771e8e952b590!2s297%20Horton%20St%20E%2C%20London%2C%20ON%20N6B%201L4%2C%20Canada!5e0!3m2!1sen!2sus!4v1730376662418!5m2!1sen!2sus" width="225" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+<div class="map-col-tow"> <P class="LOC-MOB-FONT">LOCATION 4</P>           
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11590.085278683327!2d-80.496486!3d43.428827!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882bf506d52fa451%3A0x488a33bb3b55febc!2s764%20Stirling%20Ave%20S%2C%20Kitchener%2C%20ON%20N2M%203K3%2C%20Canada!5e0!3m2!1sen!2sin!4v1730376706954!5m2!1sen!2sin" width="225" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    </div>
+</div>    
+   </div>
+   <div class="d-flex row justify-content-center copyrights-fotter">Copyright © 2024 Alpha Security Services. All Rights Reserved
 
    </div>
-
-</div>
 </footer> 
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
