@@ -568,6 +568,9 @@ text-decoration: none !important;
   padding: 12px 15px; /* Increase button size */
   font-size: 1.2rem;
 }
+.social-icons-d {
+  margin-left: 229px;
+}
 /* .STIKY-MENU-A{
   color:#003DA5 !important;
 } */
@@ -604,7 +607,7 @@ justify-content: center;
     align-items: center;
     border: 1px solid transparent;
     border-radius: 22px;
-    margin-left: 148px;
+    margin-left: 89px;
 }
 
 .email-home {
@@ -620,12 +623,10 @@ justify-content: center;
   margin-left: -10px;
 }
 .social-icons-d {
-  margin-left: 308px;
+  margin-left: 192px;
 }
 }
-.social-icons-d {
-  margin-left: 229px;
-}
+
 
 .top-bar-home {
   position: fixed;
