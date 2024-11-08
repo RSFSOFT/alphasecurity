@@ -538,6 +538,11 @@ text-decoration: none !important;
     opacity: 0.9;
     padding-bottom: 27px;
   }
+  .container.heading-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 }
 
 .container {
