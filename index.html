@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,6 +9,957 @@
     <link rel="stylesheet" href="fotter-style.css">
     <link rel="icon" href="./images/logo.png" type="image/x-icon">
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+<style>
+    @keyframes slides {
+        from {
+          transform: translateX(0);
+        }
+        to {
+          transform: translateX(-100%);
+        }
+      }
+      
+      .logos {
+        overflow: hidden;
+        padding: 30px 0px;
+        white-space: nowrap;
+        position: relative;
+      }
+      
+      .logos:before, .logos:after {
+        position: absolute;
+        top: 0;
+        content: '';
+        width: 250px;
+        height: 100%;
+        z-index: 2;
+      }
+      
+      .logos:before {
+        left: 0;
+        background: linear-gradient(to left, rgba(255,255,255,0), rgb(255, 255, 255));
+      }
+      
+      .logos:after {
+        right: 0;
+        background: linear-gradient(to right, rgba(255,255,255,0), rgb(255, 255, 255));
+      }
+      
+      .logo_items {
+        display: inline-block;
+        animation: 35s slides infinite linear;
+      }
+      
+      .logos:hover .logo_items {
+        animation-play-state: paused;
+      }
+      
+      .logo_items img{
+        height: 100px;
+      }
+</style>
+    <script src="script.js"></script>
+</head>
+<body>
+
+
+Logo Container
+<div class="logo-container text-center my-4">
+    <img src=""  class="logo img-fluid">
+</div>
+ Navbar
+<div class="top-bar-home text-white py-2">
+    <div class="row">
+        <div class="row align-items-center ">
+     
+            <div class="col-md-6 col-sm-12 d-flex align-items-center justify-content-center justify-content-md-start text-center text-md-start">
+                <span class="me-4 home-number">
+                    <i class="fas fa-phone-alt me-1"></i> +1 877-725-7422
+                </span>
+                <span class="email-home">
+                    <i class="fas fa-envelope me-1"></i> info@alphasecurityservices.ca
+                </span>
+            </div>
+
+             Right Side: Social Media Icons 
+            <div class="col-md-6 col-sm-12 d-flex justify-content-center justify-content-md-center mt-2 mt-md-0">
+                <div class="social-icons-d">                <a href="https://www.facebook.com" class="text-white me-3 social-icon-home">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://www.twitter.com" class="text-white me-3 social-icon-home">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="13" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+                        <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+                    </svg>
+                </a>
+                <a href="https://www.instagram.com" class="text-white me-3 social-icon-home">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com" class="text-white me-3 social-icon-home">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<header>
+    <div class="container mob-menu-sticky">
+      <nav class="nav-bar">
+        <a href="#" class="nav-branding"><img src="./images/logo.png" alt="" class="mobl-logo"></a>
+  
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="./index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="./about-us.html" class="nav-link">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a href="./OUR-SERVICES.html" class="nav-link">Our Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Security Systems</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Training</a>
+          </li>
+          <li class="nav-item">
+            <a href="./career.html" class="nav-link">Career</a>
+          </li>
+          <li class="nav-item">
+            <a href="./contact us.html" class="nav-link">Contact Us</a>
+          </li>
+          <button class="btn-header-mob"><a href="./getaquot.html">Get A Quote</a></button>
+        </ul>
+  
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+ New Section with Menu and Button 
+Sticky Menu Section 
+
+
+Carousel Section 
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div id ="menus"class="non-sticky-menu">
+        <div class="container d-flex justify-content-between align-items-center desk-menues ">
+            Left Menu Links 
+            <div class="left-menu menu-left-home d-flex col-12 left-menu-sliders">
+                <a href="./index.html" class="menu-link">Home</a>
+                <a href="./about-us.html" class="menu-link">About Us</a>
+                <a href="./OUR-SERVICES.html" class="menu-link">Our Services</a>
+                <a href="./page.html" class="menu-link">Security Systems</a>
+            </div>
+    
+            Logo in Center 
+            <div class="menu-logo">
+                <img src="./images/logo.png" alt="Logo" class="LOGO-HOME">
+            </div>
+    
+             Right Menu Links and Button 
+            <div class="right-menu d-flex align-items-center right-menu-home col-12">
+                <a href="ONTARIO SECURITY GUARD COURSE.html" class="menu-link">Training</a>
+                <a href="./career.html" class="menu-link">Career</a>
+                <a href="./contact us.html" class="menu-link">Contact Us</a>
+                <button class="btn btn-primary ms-4 NAV-BTN-HOME quote-btn"><a href="./getaquot.html">Get A Quote</a></button>
+            </div>
+        </div>
+    </div>
+    
+    <div id ="menus"class="sticky-menu">
+        <div class="container d-flex justify-content-between align-items-center desk-menues ">
+   Left Menu Links 
+            <div class="left-menu menu-left-home d-flex col-12 left-menu-sliders">
+                <a href="#" class="menu-link STIKY-MENU-A">Home</a>
+                <a href="./about-us.html" class="menu-link  STIKY-MENU-A">About Us</a>
+                <a href="./ONTARIO SECURITY GUARD COURSE.html" class="menu-link STIKY-MENU-A">Security Guards</a>
+                <a href="./page.html" class="menu-link STIKY-MENU-A">Security Systems</a>
+            </div>
+    
+            Logo in Center 
+            <div class="menu-logo">
+                <img src="./images/logo.png" alt="Logo" class="LOGO-HOME sticky-logo">
+            </div>
+    
+          Right Menu Links and Button 
+            <div class="right-menu d-flex align-items-center right-menu-home col-12 stic-menu-sty">
+                <a href="./ONTARIO SECURITY GUARD COURSE.html" class="menu-link  STIKY-MENU-A">Training</a>
+                <a href="./career.html" class="menu-link STIKY-MENU-A">Career</a>
+                <a href="./contact us.html" class="menu-link STIKY-MENU-A">Contact Us</a>
+                <button class="btn btn-primary ms-4 NAV-BTN-HOME  quote-btn"><a href="./getaquot.html">Get A Quote</a></button>
+            </div>
+        </div>
+    </div>
+
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    </div>
+    
+    
+    <div class="carousel-inner">
+      Slide 1 
+        <div class="carousel-item active">
+            <div class="menu-section">
+                <div class="video-background">
+                    <video autoplay muted loop>
+                        <source src="./videos/SLIDER1-ALPHALOGO.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="container">
+                    <h2 class="slider-heading-home">
+                        <span>VIGILANT|</span> <span>DYNAMIC|</span> <span>DEDICATED</span>                            </h2>
+                    <p class="wow fadeInRight">On-Call / Immediate Services Available 24/7
+                    </p>
+                   
+                    <div class="breadcrumb center-list">
+                        <button class="QUATE-BTN">Get A QUOTE</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        Slide 2
+        <div class="carousel-item">
+            <div class="menu-section">
+                <div class="video-background">
+                    <video autoplay muted loop>
+                        <source src="./videos/SLIDER2.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="container">
+                    <h2 class="slider-heading-home">Award Winning Security Company
+                    </h2>
+                    <div class="breadcrumb center-list">
+                        <button class="QUATE-BTN">Get A QUOTE</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+       Slide 3 
+        <div class="carousel-item">
+            <div class="menu-section">
+                <div class="video-background" style="background-image: url(./images/Slider-4.jpg);background-repeat: no-repeat; background-size: cover;">
+                
+                    
+                       
+                </div>
+                <div class="container">
+                    <h2 class="slider-heading-home">Advanced Security Solutions</h2>
+                    <div class="breadcrumb center-list">
+                        <button class="QUATE-BTN">Get A QUOTE</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+Slide 4 
+        <div class="carousel-item">
+            <div class="menu-section">
+                <div class="video-background">
+                    <video autoplay muted loop>
+                        <source src="./videos/SLIDER 5.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="container">
+                    <h2 class="slider-heading-home">Revolutionizing Security Services: Fast, Reliable, Easy to Obtain & Community Focused</h2>
+                    <div class="breadcrumb center-list">
+                        <button class="QUATE-BTN">Get A QUOTE</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    
+Slide 5 
+<div class="carousel-item">
+    <div class="menu-section">
+        <div class="video-background" style="background-image: url(./images/slider\ 6.JPG);background-repeat: no-repeat; background-size: cover;">
+        
+               
+           
+        </div>
+        <div class="container">
+            <h2 class="slider-heading-home">Emergency Services Available 24/ 7
+            </h2>
+            <div class="breadcrumb center-list">
+                <button class="QUATE-BTN">Get A QUOTE</button>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+ 
+QControls 
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+
+    
+    <!-- New Section 
+<div class="info-section-desk">
+    <div class="container d-flex justify-content-center align-items-center about-sec-mobl">
+        <!-- Left Side: Heading and Paragraph 
+        <div class="left-content col-6">
+            <h5 class="about-home">About Us</h5>
+            <h3 class="info-heading-home">WELCOME TO ALPHA</h3>
+            <p class="info-paragraph-home"style="    padding-right: 210px;">
+                ALPHA Security is a ministry approved private security company based in Southern Ontario dedicated to providing top quality, proactive and preventive security solutions at highly competitive rates.
+                As a trusted security guard agency, ALPHA Security boasts a team with extensive comprehensive protection experience including excellent command over on-site operation as well as knowledge and implementation of advanced technology for complete protection of
+                clients.   
+            </p>
+            <a href="#" class="read-more-btn-home">
+                Read More
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" viewBox="0 0 24 24">
+                    <path d="M14.7 5.3a1 1 0 011.4 0l6 6a1 1 0 010 1.4l-6 6a1 1 0 11-1.4-1.4L19.58 13H5a1 1 0 010-2h14.58l-4.88-4.88a1 1 0 010-1.42z"/>
+                </svg>
+            </a>
+        </div>
+
+        <!-- Right Side: Image 
+        <div class="right-content col-6">
+            <img src="./images/nohat_upscale_x2_6a150ccd 1 copy 1.png" alt="Description" class="info-image-home">
+            <img src="./images/consumer-removebg-preview.png" alt="" class="award">
+        </div>
+      
+    </div>
+</div>
+
+<!-- mobile devices about
+
+<div class="info-section"></div>
+    <div class="container d-flex justify-content-center align-items-center about-sec-mobl">
+        Left Side: Heading and Paragraph -->
+       
+
+        <!-- Right Side: Image 
+        <div class="right-content col-12 mobl-right">
+            <img src="./images/nohat_upscale_x2_6a150ccd 1 copy 1.png" alt="Description" class="info-image-home-mob">
+            <img src="./images/consumer-removebg-preview.png" alt="" class="mobilereward" >
+        </div>
+        <div class="left-content col-12 mobl-left">
+            <h5 class="about-home-mob">About Us</h5>
+            <h3 class="info-heading-home">WELCOME TO ALPHA</h3>
+            <p class="info-paragraph-home">
+                ALPHA Security is a ministry approved private security company based in Southern Ontario dedicated to providing top quality, proactive and preventive security solutions at highly competitive rates.
+                As a trusted security guard agency, ALPHA Security boasts a team with extensive comprehensive protection experience including excellent command over on-site operation as well as knowledge and implementation of advanced technology for complete protection of
+                clients.   
+            </p>
+            <a href="#" class="read-more-btn-home">
+                Read More
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" viewBox="0 0 24 24">
+                    <path d="M14.7 5.3a1 1 0 011.4 0l6 6a1 1 0 010 1.4l-6 6a1 1 0 11-1.4-1.4L19.58 13H5a1 1 0 010-2h14.58l-4.88-4.88a1 1 0 010-1.42z"/>
+                </svg>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="container heading-center">
+    <h2 class="font-heading THIRD-SEC-HOME">OUR</h2>&nbsp;<H2 class="font-heading" STYLE="COLOR:RED;"> SURVEILLANCE SYSTEMS</h2>
+    </div>
+    <div class="container mt-5 margins-issue">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card CARD-BORDER">
+                    <img src="./images/TAILOREDSERVICES.png" class="card-img-top card-img-topS" alt="Tailored Services">
+                    <div class="card-body card-body-BTN">
+                        <h5 class="card-title">TAILORED SERVICES</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card CARD-BORDER">
+                    <img src="./images/LIVEREMOTEMONITORING.jpg" class="card-img-top card-img-topS" alt="Live Remote Monitoring">
+                    <div class="card-body card-body-BTN">
+                        <h5 class="card-title">LIVE REMOTE MONITORING</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card CARD-BORDER">
+                    <img src="./images/CAMERASYSTEMINSTALLATIONANDSET-UP.jpg" class="card-img-top card-img-topS" alt="Camera System Installation">
+                    <div class="card-body card-body-BTN">
+                        <h5 class="card-title">CAMERA SYSTEM INSTALLATION AND SET-UP</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card CARD-BORDER">
+                    <img src="./images/MOBILE SURVEILLANCE SYSTEM.jpg" class="card-img-top card-img-topS" alt="Mobile Surveillance System">
+                    <div class="card-body card-body-BTN">
+                        <h5 class="card-title">MOBILE SURVEILLANCE SYSTEM</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container heading-center">
+        <h2 class="font-heading THIRD-SEC-HOME">OUR</h2>&nbsp;<H2 class="font-heading" STYLE="COLOR:RED;"> GUARD SERVICES</h2>
+        </div>
+        <div class="container mt-5 margins-issue ">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card CARD-BORDER">
+                        <img src="./images/Security-Company-Business-Plan.jpg" class="card-img-top card-img-topS" alt="Tailored Services">
+                        <div class="card-body card-body-BTN">
+                            <h5 class="card-title">HEALTH CARE FACILITY</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card CARD-BORDER">
+                        <img src="./images/TAILOREDSERVICES.png" class="card-img-top card-img-topS" alt="Live Remote Monitoring">
+                        <div class="card-body card-body-BTN">
+                            <h5 class="card-title">FIRE AND CONTRACTOR WATCH</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card CARD-BORDER">
+                        <img src="./images/cops3.png" class="card-img-top card-img-topS" alt="Camera System Installation">
+                        <div class="card-body card-body-BTN">
+                            <h5 class="card-title">CONSTRUCTION SITES SECURITY</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card CARD-BORDER">
+                        <img src="./images/GUARDS.jpg" class="card-img-top card-img-topS" alt="Mobile Surveillance System">
+                        <div class="card-body card-body-BTN">
+                            <h5 class="card-title">MOBILE PATROL AND ALARM RESPONSE</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-5  ">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card CARD-BORDER">
+                        <img src="./images/Security-Company-Business-Plan.jpg" class="card-img-top card-img-topS" alt="Tailored Services">
+                        <div class="card-body card-body-BTN">
+                            <h5 class="card-title">RESIDENTIAL AND CONCIERGE</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card CARD-BORDER">
+                        <img src="./images/LIVEREMOTEMONITORING.jpg" class="card-img-top card-img-topS" alt="Live Remote Monitoring">
+                        <div class="card-body card-body-BTN">
+                            <h5 class="card-title">EVENTS, CONCERTS,
+                                GAMES SECURITY</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card CARD-BORDER">
+                        <img src="./images/cops3.png" class="card-img-top card-img-topS" alt="Camera System Installation">
+                        <div class="card-body card-body-BTN">
+                            <h5 class="card-title">COMMERCIAL AND INDUSTRIAL SECTORS</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card CARD-BORDER">
+                        <img src="./images/high-angle-security-team-prevention.jpg" class="card-img-top card-img-topS" alt="Mobile Surveillance System">
+                        <div class="card-body card-body-BTN">
+                            <h5 class="card-title">EDUCTAIONAL
+                                CAMPUS SECURITY</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <!-- <div id="carouselExample" class="carousel slide CLIENT-SLIDERS slider-desktop" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row sponiser-margin">
+                        <div class="col-12 col-md-3"><img src="./images/1.png" class="d-block IMG-CLIENTS" alt="Sponsor 1"></div>
+                        <div class="col-12 col-md-3"><img src="./images/2.png" class="d-block IMG-CLIENTS" alt="Sponsor 2"></div>
+                        <div class="col-12 col-md-3"><img src="./images/3.png" class="d-block IMG-CLIENTS" alt="Sponsor 3"></div>
+                        <div class="col-12 col-md-3"><img src="./images/4.png" class="d-block IMG-CLIENTS" alt="Sponsor 3"></div>
+                       
+              
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row sponiser-margin">
+                        <div class="col-12 col-md-3"><img src="./images/5.png" class="d-block IMG-CLIENTS" alt="Sponsor 3"></div>
+                        <div class="col-12 col-md-3"><img src="./images/6.png" class="d-block IMG-CLIENTS" alt="Sponsor 3"></div>
+                        <div class="col-12 col-md-3"><img src="./images/7.png" class="d-block IMG-CLIENTS" alt="Sponsor 3"></div>
+                        <div class="col-12 col-md-3"><img src="./images/8.png" class="d-block IMG-CLIENTS" alt="Sponsor 3"></div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div> -->
+        
+        <!-- mobile slider-->
+        <!-- <div id="carouselExample carouselExample" class="carousel slide CLIENT-SLIDERS mobl-slider" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="d-flex justify-content-center">
+                        <img src="./images/costco.png" class="d-block IMG-CLIENTS mx-auto" alt="Sponsor 1">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-flex justify-content-center">
+                        <img src="./images/sponser 4.jpg" class="d-block IMG-CLIENTS mx-auto" alt="Sponsor 2">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-flex justify-content-center">
+                        <img src="./images/sponser 5.jpg" class="d-block IMG-CLIENTS mx-auto" alt="Sponsor 3">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-flex justify-content-center">
+                        <img src="./images/sponser2.png" class="d-block IMG-CLIENTS mx-auto" alt="Sponsor 4">
+                    </div>
+                </div>
+               Add more carousel items as needed 
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div> 
+        <div class="container heading-left">
+            <h2 class="font-heading THIRD-SEC-HOME">OUR</h2>&nbsp;<H2 class="font-heading" STYLE="COLOR:RED;">TESTIMONIALS</h2>
+            </div>
+        <DIV class="testimonials-heading">
+            <img src="./images/TESTIMONIALS.PNG" alt="" class="testimonials-img">
+        </DIV>
+        <DIV class="testimonials-heading-mobile">
+            <img src="./images/mobile-testimonial.png" alt="" width="90%"class="">
+            <img src="./images/text-testimonials.PNG" width="90%"alt="">
+            <img src="./images/happy-client.png" width="90%"alt="">
+        </DIV>
+        <!-- <DIV class="testimonials-heading">
+         
+        </DIV> 
+        <div class="container heading-centers">
+            <h2 class="font-heading THIRD-SEC-HOME">WHY</h2>&nbsp;<H2 class="font-heading" STYLE="COLOR:RED;"> CHOOSE US</h2>
+            </div>
+            <DIV class="testimonials-heading-mobile">
+                <img src="./images/WHY-SCHOOSE.png" alt="" width="90%"class="">
+     
+            </DIV>
+            <DIV class="testimonials-heading">
+                <img src="./images/WHY-SCHOOSE.png" alt=""  class="why-choose-img">
+               
+            </DIV>
+            <DIV class="testimonials-heading-mobile">
+                <!-- <img src="./images/maps2.png" alt="" width="90%"class=""> 
+                <video autoplay muted loop>
+                    <source src="./videos/a2604a3e-c5c3-4147-9370-4c5d4aa96e42.mov" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+     
+            </DIV>
+            <DIV class="testimonials-heading">
+                <!-- <img src="./images/maps.PNG" alt=""  class="why-choose-img"> 
+                <video autoplay muted loop>
+                    <source src="./videos/a2604a3e-c5c3-4147-9370-4c5d4aa96e42.mov" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+               
+            </DIV>
+            <div class="container heading-centers">
+                <h2 class="font-heading THIRD-SEC-HOME">Our</h2>&nbsp;<H2 class="font-heading" STYLE="COLOR:RED;"> Satisfying Customers</h2>
+                </div>
+            <div class="d-flex">
+                <div class="logos d-flex">
+                    <div class="logo_items d-flex">
+                    <img src="./images/1.png" class="d-block IMG-CLIENTS" alt="Sponsor 1">
+                    <img src="./images/2.png" class="d-block IMG-CLIENTS" alt="Sponsor 1">
+                    <img src="./images/3.png" class="d-block IMG-CLIENTS" alt="Sponsor 1">
+                    <img src="./images/4.png" class="d-block IMG-CLIENTS" alt="Sponsor 1">
+                    <img src="./images/5.png" class="d-block IMG-CLIENTS" alt="Sponsor 1">
+                    <img src="./images/6.png" class="d-block IMG-CLIENTS" alt="Sponsor 1">
+                    <img src="./images/7.png" class="d-block IMG-CLIENTS" alt="Sponsor 1">
+                    <img src="./images/8.png" class="d-block IMG-CLIENTS" alt="Sponsor 1">
+                    <img src="./images/9.png" class="d-block IMG-CLIENTS" alt="Sponsor 1">
+                    <img src="./images/10.png" class="d-block IMG-CLIENTS" alt="Sponsor 1">
+                    <img src="./images/11.png" class="d-block IMG-CLIENTS" alt="Sponsor 1">
+                    <img src="./images/12.png" class="d-block IMG-CLIENTS" alt="Sponsor 1">
+                    <img src="./images/13.png" class="d-block IMG-CLIENTS" alt="Sponsor 1">
+                    <img src="./images/14.png" class="d-block IMG-CLIENTS" alt="Sponsor 1">
+                    <img src="./images/15.png" class="d-block IMG-CLIENTS" alt="Sponsor 1">
+            
+                    
+                    </div>
+                      <div class="logo_items d-flex">
+                        <img src="./images/1.png" class="d-block IMG-CLIENTS" alt="Sponsor 1">
+                    <img src="./images/2.png" class="d-block IMG-CLIENTS" alt="Sponsor 1">
+                    <img src="./images/3.png" class="d-block IMG-CLIENTS" alt="Sponsor 1">
+                    <img src="./images/4.png" class="d-block IMG-CLIENTS" alt="Sponsor 1">
+                    <img src="./images/5.png" class="d-block IMG-CLIENTS" alt="Sponsor 1">
+                    <img src="./images/6.png" class="d-block IMG-CLIENTS" alt="Sponsor 1">
+                    <img src="./images/7.png" class="d-block IMG-CLIENTS" alt="Sponsor 1">
+                    <img src="./images/8.png" class="d-block IMG-CLIENTS" alt="Sponsor 1">
+                    <img src="./images/9.png" class="d-block IMG-CLIENTS" alt="Sponsor 1">
+                    <img src="./images/10.png" class="d-block IMG-CLIENTS" alt="Sponsor 1">
+                    <img src="./images/11.png" class="d-block IMG-CLIENTS" alt="Sponsor 1">
+                    <img src="./images/12.png" class="d-block IMG-CLIENTS" alt="Sponsor 1">
+                    <img src="./images/13.png" class="d-block IMG-CLIENTS" alt="Sponsor 1">
+                    <img src="./images/14.png" class="d-block IMG-CLIENTS" alt="Sponsor 1">
+                    <img src="./images/15.png" class="d-block IMG-CLIENTS" alt="Sponsor 1">
+                    
+                    </div>
+                    </div>
+                </div>
+        <footer class="footer">
+            <div class="container footer-row">
+                <div class="col-4">
+              <img class= "footer-logo"src="./images/logo.png" alt="">
+            <p class="footer-about">Need security guard for a day, week or on 24/7 basis? Worry not, as we provide the security services in Ontario Canada. From Concierge, to Construction, Retail, event security and many more. Get in touch with us for best security services at affordable rates. Call us now.</p>
+                <div class="row-fotter-btn">
+                    <div class="col1">
+                        <button class="footer-btn-one quote-btn"><a href="./getaquot.html">GET A QUOTE</a></button>
+                        <button class="fotter-btn-two quote-btn"><a href="./contact us.html">CONTACT US</a></button>
+                        <button class="footer-btn-one quote-btn"> <a href="https://alphasecurityservices.ca/files/catalog/Broucher2_ALL%20ONE%20SIDE%20online.pdf">Download Brochure</a></button>
+                    </div>
+                </div>
+        </div>
+           
+           
+           <div class="col-2 fotter-link">
+            <h3>Quick Links</h3>
+            <ul>
+                <li>
+                   <a class="link-style-fotter" href="./index.html"> Home</a>
+                </li>
+                <li>
+                    <a class="link-style-fotter" href="./about-us.html">About Us</a>
+                </li>
+                <li>
+                   <a class="link-style-fotter" href="./OUR-SERVICES.html"> Services</a>
+                </li>
+                <li>
+                    Blog
+                </li>
+                <li>
+                Training
+            </li>
+            <li>
+               <a class="link-style-fotter" href="./career.html"> Career</a>
+            </li>
+        
+            </ul>
+           </div>
+           <div class="col-2 fotter-link">
+           <h3>Quick Links</h3>
+            <ul>
+                <li>
+                   <a class="link-style-fotter" href="./ONTARIO%20SECURITY%20GUARD%20COURSE.html"> Security Guards</a>
+                </li>
+                <li>
+                    <a class="link-style-fotter" href="#">Security Systems</a>
+                </li>
+                <li>
+                    <a class="link-style-fotter" href="#"> Yard Security</a>
+                 </li>
+                 <li>
+                     <a class="link-style-fotter" href="#">Mobile Patrol</a>
+                 </li>
+            </ul>
+        
+            <div class="social-menu">
+                <ul class="fotter-socials-icons">
+                    <li><a href="https://www.facebook.com/Alpha-Security-Services-Canada-106399967772862/?modal=admin_todo_tour" target="blank"><i class="fab fa-facebook-square"></i></a>
+                    </li>
+                    <li><a href="https://www.instagram.com/alphasecurityservices/" target="blank"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://www.linkedin.com/company/78133698/" target="blank"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li><a href=" https://twitter.com/alpha_securitys"><i class="fab fa-twitter"></i></a>
+                    </li>
+                </ul>
+            </div>
+            
+            <!-- <h3>Contact Us</h3>
+            <ul>
+                Envelop icon 
+        <li><i class="fas fa-envelope"></i><a class="fotter-contect" href="mailto:info@alphaseecurityservices.ca
+            ">info@alphaseecurityservices.ca</a>
+        </li>
+        Phone number icon 
+        <li><i class="fas fa-phone-alt"></i> <a class="fotter-contect" href="tel:+18777257422">+1 877-725-7422</a>
+        </li>
+       <li> <i style="font-size:10px" class="fa">&#xf041;</i><a class="fotter-contect" >9-764 Stirling Ave S Kitchener, ON N2M 3K3
+
+       </a>
+       </li>   
+       <li> <i style="font-size:10px" class="fa">&#xf041;</i><a class="fotter-contect" >297 Horton St E London On N6G 1L2 Canada
+       </a>
+       </li>  
+       <li> <i style="font-size:10px" class="fa">&#xf041;</i><a class="fotter-contect" >279 Kenilworth Ave N (Office#8),Hamilton, ON L8H 4S8.
+       </a>
+       </li>  
+       <li> <i style="font-size:10px" class="fa">&#xf041;</i><a class="fotter-contect" >18 Stockdale Rd, Trenton, ON K8V 5P6.
+       </a>
+       </li>      
+    </ul> -->
+           
+            <!-- <DIV class="col-4">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11590.085278683327!2d-80.496486!3d43.428827!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882bf506d52fa451%3A0x488a33bb3b55febc!2s764%20Stirling%20Ave%20S%2C%20Kitchener%2C%20ON%20N2M%203K3%2C%20Canada!5e0!3m2!1sen!2sin!4v1728468579281!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </DIV>
+            <DIV class="col-4">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11590.085278683327!2d-80.496486!3d43.428827!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882bf506d52fa451%3A0x488a33bb3b55febc!2s764%20Stirling%20Ave%20S%2C%20Kitchener%2C%20ON%20N2M%203K3%2C%20Canada!5e0!3m2!1sen!2sin!4v1728468579281!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </DIV> -->
+            <!-- <div class="fotter-padding"></div> 
+           </div>
+           <DIV class="col-3 fotter-link">     <h3>Contact Us</h3>
+            <ul>
+                <!-- Envelop icon 
+        <li><i class="fas fa-envelope"></i><a class="fotter-contect" href="mailto:info@alphaseecurityservices.ca
+            ">info@alphaseecurityservices.ca</a>
+        </li>
+        <!-- Phone number icon 
+        <li><i class="fas fa-phone-alt"></i> <a class="fotter-contect" href="tel:+18777257422">+1 877-725-7422</a>
+        </li>
+       <li> <i style="font-size:10px" class="fa">&#xf041;</i><a class="fotter-contect" >9-764 Stirling Ave S Kitchener, ON N2M 3K3
+
+       </a>
+       </li>   
+       <li> <i style="font-size:10px" class="fa">&#xf041;</i><a class="fotter-contect" >297 Horton St E London On N6G 1L2 Canada
+       </a>
+       </li>  
+       <li> <i style="font-size:10px" class="fa">&#xf041;</i><a class="fotter-contect" >279 Kenilworth Ave N (Office#8),Hamilton, ON L8H 4S8.
+       </a>
+       </li>  
+       <li> <i style="font-size:10px" class="fa">&#xf041;</i><a class="fotter-contect" >18 Stockdale Rd, Trenton, ON K8V 5P6.
+       </a>
+       </li>      
+    </ul>
+    <div class="fotter-padding"></div>
+            <!-- <h3>Map </h3>
+            <div class="map-row">
+                <div class="map-col-one">           <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11457.331642062521!2d-77.598835!3d44.117755!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d6166786e7483d%3A0x37347aef1fa7737b!2s18%20Stockdale%20Rd%2C%20Murray%2C%20ON%20K8V%205P4%2C%20Canada!5e0!3m2!1sen!2sus!4v1730376565365!5m2!1sen!2sus" width="200" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="map-col-tow">           
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11624.487400934402!2d-79.806612!3d43.248868!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882c99380fea1deb%3A0xc3ad1614e55be90e!2s279%20Kenilworth%20Ave%20N%20%238%2C%20Hamilton%2C%20ON%20L8H%204S8%2C%20Canada!5e0!3m2!1sen!2sus!4v1730376606182!5m2!1sen!2sus" width="200" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                </div>
+            </div> 
+            <div class="map-row">
+                <div class="map-col-one">    
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d729.7270070318888!2d-81.241456!3d42.980211!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882ef21a10000555%3A0x48e771e8e952b590!2s297%20Horton%20St%20E%2C%20London%2C%20ON%20N6B%201L4%2C%20Canada!5e0!3m2!1sen!2sus!4v1730376662418!5m2!1sen!2sus" width="200" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="map-col-tow">          
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11590.085278683327!2d-80.496486!3d43.428827!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882bf506d52fa451%3A0x488a33bb3b55febc!2s764%20Stirling%20Ave%20S%2C%20Kitchener%2C%20ON%20N2M%203K3%2C%20Canada!5e0!3m2!1sen!2sin!4v1730376706954!5m2!1sen!2sin" width="200" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>  
+        </DIV>
+        <div class="col-2"></div>
+       
+        </div>
+        <DIV class="col-12 desk-map-space-fix ">
+            <div class="d-flex justify-content-center">
+       <h3>Offices Locations </h3>
+    </div>
+       <div class="row d-flex justify-content-center">
+        <div class="address-office-map">
+        <span class="office-t">Office 1: 9-764 Stirling Ave S Kitchener, ON N2M 3K3 
+       </span>
+    </div>
+<div class="address-office-map">
+       <span class="office-tw">Office 2: 297 Horton St E London On N6G 1L2 Canada 
+    </span>
+</div>
+<div class="address-office-map">
+    <span class="office-tw">Office 3: 279 Kenilworth Ave N (Office#8),Hamilton, ON L8H 4S8.
+    </span>
+</div>
+<div class="address-office-map">
+    <span class="office-tw">Office 4: 18 Stockdale Rd, Trenton, ON K8V 5P6.
+    </span>
+</div>
+</div>
+            <div class="map-row d-flex justify-content-center">
+                
+                <div class="map-col-one">  <div>       <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11457.331642062521!2d-77.598835!3d44.117755!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d6166786e7483d%3A0x37347aef1fa7737b!2s18%20Stockdale%20Rd%2C%20Murray%2C%20ON%20K8V%205P4%2C%20Canada!5e0!3m2!1sen!2sus!4v1730376565365!5m2!1sen!2sus" width="300" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>                </div>
+               
+                <div class="map-col-tow">           
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11624.487400934402!2d-79.806612!3d43.248868!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882c99380fea1deb%3A0xc3ad1614e55be90e!2s279%20Kenilworth%20Ave%20N%20%238%2C%20Hamilton%2C%20ON%20L8H%204S8%2C%20Canada!5e0!3m2!1sen!2sus!4v1730376606182!5m2!1sen!2sus" width="300" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                </div>
+           
+                <div class="map-col-one">    
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d729.7270070318888!2d-81.241456!3d42.980211!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882ef21a10000555%3A0x48e771e8e952b590!2s297%20Horton%20St%20E%2C%20London%2C%20ON%20N6B%201L4%2C%20Canada!5e0!3m2!1sen!2sus!4v1730376662418!5m2!1sen!2sus" width="300" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="map-col-tow">          
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11590.085278683327!2d-80.496486!3d43.428827!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882bf506d52fa451%3A0x488a33bb3b55febc!2s764%20Stirling%20Ave%20S%2C%20Kitchener%2C%20ON%20N2M%203K3%2C%20Canada!5e0!3m2!1sen!2sin!4v1730376706954!5m2!1sen!2sin" width="300" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div> 
+            
+            <div class="d-flex row justify-content-center copyrights-fotter">Copyright © 2024 Alpha Security Services. All Rights Reserved
+
+            </div>
+        </DIV>   
+    </footer>  
+        <footer class="footer-mob">
+            <div class="container"></div>
+                <div class="col-12">
+           <div class="mobl-fotter-centerlization">
+            <img class= "footer-logo"src="./images/logo.png" alt="">
+            <p class="footer-about">Need security guard for a day, week or on 24/7 basis? Worry not, as we provide the security services in Ontario Canada. From Concierge, to Construction, Retail, event security and many more. Get in touch with us for best security services at affordable rates. Call us now.</p>
+                <div class="row-fotter-btn">
+                    <div class="col1">
+                        <button class="footer-btn-one quote-btn">GET A QUOTE</button>
+                        <button class="fotter-btn-two quote-btn">CONTACT US</button>
+                        <button class="footer-btn-one quote-btn"><a href="https://alphasecurityservices.ca/files/catalog/Broucher2_ALL%20ONE%20SIDE%20online.pdf"> Download Brochure</a></button>
+                    </div>
+                </div>
+        </div>
+           </div>
+           
+           <div class="col-6 fotter-link d-flex justify-content-center new-fotter-cls">
+           <div class="col-5">
+            <h3>Quick Links</h3>
+            <ul>
+                <li>
+                    <a class="link-style-fotter"href="./index.html"> Home</a>
+                 </li>
+                 <li>
+                     <a class="link-style-fotter" href="./about-us.html">About Us</a>
+                 </li>
+                 <li>
+                    <a class="link-style-fotter" href="./OUR-SERVICES.html"> Services</a>
+                 </li>
+                 <li>
+                     Blog
+                 </li>
+                 <li>
+                 Training
+             </li>
+             <li>
+                <a href="./career.html" class="link-style-fotter"> Career</a>
+             </li>
+             <li>
+                 <a href="./contact us.html" class="link-style-fotter">Contact Us</a>
+             </li>
+            
+            </ul>
+            </div>
+            <!--
+            <div class="col-12">
+            <h3>Contact Us</h3>
+            <ul>
+                <!-- Envelop icon 
+        <li><i class="fas fa-envelope"></i><a class="fotter-contect" href="mailto:info@alphaseecurityservices.ca">info@alphaseecurityservices.ca</a>
+        </li>
+       Phone number icon 
+        <li><i class="fas fa-phone-alt"></i> <a class="fotter-contect" href="tel:+18777257422">+1 877-725-7422</a>
+        </li>
+        <li> <i style="font-size:10px" class="fa">&#xf041;</i><a class="fotter-contect" >9-764 Stirling Ave S Kitchener, ON N2M 3K3
+
+        </a>
+        </li>   
+        <li> <i style="font-size:10px" class="fa">&#xf041;</i><a class="fotter-contect" >297 Horton St E London On N6G 1L2 Canada
+        </a>
+        </li>  
+        <li> <i style="font-size:10px" class="fa">&#xf041;</i><a class="fotter-contect" >279 Kenilworth Ave N (Office#8),Hamilton, ON L8H 4S8.
+        </a>
+        </li>  
+        <li> <i style="font-size:10px" class="fa">&#xf041;</i><a class="fotter-contect" >18 Stockdale Rd, Trenton, ON K8V 5P6.
+        </a>
+        </li>  
+            </ul>
+            <div class="social-menu">
+                <ul class="fotter-socials-icons">
+                    <li><a href="https://www.facebook.com/Alpha-Security-Services-Canada-106399967772862/?modal=admin_todo_tour" target="blank"><i class="fab fa-facebook-square"></i></a>
+                    </li>
+                    <li><a href="https://www.instagram.com/alphasecurityservices/" target="blank"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://www.linkedin.com/company/78133698/" target="blank"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li><a href=" https://twitter.com/alpha_securitys"><i class="fab fa-twitter"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+           </div>
+           
+          <div class="col-12 fotter-link"> 
+            <h3>Contact Us</h3>
+            <ul>
+                 Envelop icon 
+        <li><i class="fas fa-envelope"></i><a class="fotter-contect" href="mailto:info@alphaseecurityservices.ca">info@alphaseecurityservices.ca</a>
+        </li>
+       Phone number icon 
+        <li><i class="fas fa-phone-alt"></i> <a class="fotter-contect" href="tel:+18777257422">+1 877-725-7422</a>
+        </li>
+            </ul>
+            <div class="fotter-lst-mob"></div>
+           </div> 
+           <div class="col-12 fotter-link"> 
+            <h3 class="client-mobl-loc">Offices Locations </h3>
+<div class="map-row">
+    <div class="map-col-one"><P class="LOC-MOB-FONT">LOCATION 1</P><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11457.331642062521!2d-77.598835!3d44.117755!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d6166786e7483d%3A0x37347aef1fa7737b!2s18%20Stockdale%20Rd%2C%20Murray%2C%20ON%20K8V%205P4%2C%20Canada!5e0!3m2!1sen!2sus!4v1730376565365!5m2!1sen!2sus" width="225" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="map-col-tow"><P class="LOC-MOB-FONT">LOCATION 2</P> <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11624.487400934402!2d-79.806612!3d43.248868!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882c99380fea1deb%3A0xc3ad1614e55be90e!2s279%20Kenilworth%20Ave%20N%20%238%2C%20Hamilton%2C%20ON%20L8H%204S8%2C%20Canada!5e0!3m2!1sen!2sus!4v1730376606182!5m2!1sen!2sus" width="225" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            
+    </div>
+</div> 
+<div class="map-row">
+    <div class="map-col-one"><P class="LOC-MOB-FONT">LOCATION 3</P><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d729.7270070318888!2d-81.241456!3d42.980211!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882ef21a10000555%3A0x48e771e8e952b590!2s297%20Horton%20St%20E%2C%20London%2C%20ON%20N6B%201L4%2C%20Canada!5e0!3m2!1sen!2sus!4v1730376662418!5m2!1sen!2sus" width="225" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="map-col-tow"> <P class="LOC-MOB-FONT">LOCATION 4</P>           
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11590.085278683327!2d-80.496486!3d43.428827!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882bf506d52fa451%3A0x488a33bb3b55febc!2s764%20Stirling%20Ave%20S%2C%20Kitchener%2C%20ON%20N2M%203K3%2C%20Canada!5e0!3m2!1sen!2sin!4v1730376706954!5m2!1sen!2sin" width="225" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    </div>
+</div>    
+           </div>
+           <div class="d-flex row justify-content-center copyrights-fotter">Copyright © 2024 Alpha Security Services. All Rights Reserved
+
+           </div>
+        </footer> 
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="fotter-style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -328,10 +1279,10 @@ Logo Container -->
 <div class="info-section-desk">
     <div class="container d-flex justify-content-center align-items-center about-sec-mobl">
         <!-- Left Side: Heading and Paragraph -->
-        <div class="left-content col-6">
+        <div class="left-content col-6 fade-in-left" data-animate="fade-in-left ">
             <h5 class="about-home">About Us</h5>
             <h3 class="info-heading-home">WELCOME TO ALPHA</h3>
-            <p class="info-paragraph-home"style="    padding-right: 210px;">
+            <p style="padding-right: 210px;" class="info-paragraph-home">
                 ALPHA Security is a ministry approved private security company based in Southern Ontario dedicated to providing top quality, proactive and preventive security solutions at highly competitive rates.
                 As a trusted security guard agency, ALPHA Security boasts a team with extensive comprehensive protection experience including excellent command over on-site operation as well as knowledge and implementation of advanced technology for complete protection of
                 clients.   
@@ -345,7 +1296,7 @@ Logo Container -->
         </div>
 
         <!-- Right Side: Image -->
-        <div class="right-content col-6">
+        <div class="right-content col-6 slide-in-right" data-animate=" slide-in-right">
             <img src="./images/nohat_upscale_x2_6a150ccd 1 copy 1.png" alt="Description" class="info-image-home">
             <img src="./images/consumer-removebg-preview.png" alt="" class="award">
         </div>
@@ -354,152 +1305,154 @@ Logo Container -->
 </div>
 
 <!-- mobile devices about-->
-
 <div class="info-section"></div>
-    <div class="container d-flex justify-content-center align-items-center about-sec-mobl">
-        <!-- Left Side: Heading and Paragraph -->
-       
+<div class="container d-flex justify-content-center align-items-center about-sec-mobl">
+    <!-- Left Side: Heading and Paragraph -->
 
-        <!-- Right Side: Image -->
-        <div class="right-content col-12 mobl-right">
-            <img src="./images/nohat_upscale_x2_6a150ccd 1 copy 1.png" alt="Description" class="info-image-home-mob">
-            <img src="./images/consumer-removebg-preview.png" alt="" class="mobilereward" >
+    <!-- Right Side: Image -->
+    <div class="right-content col-12 mobl-right">
+        <img src="./images/nohat_upscale_x2_6a150ccd 1 copy 1.png" alt="Description" class="info-image-home-mob">
+        <img src="./images/consumer-removebg-preview.png" alt="" class="mobilereward">
+    </div>
+    <div class="left-content col-12 mobl-left">
+        <h5 class="about-home-mob">About Us</h5>
+        <h3 class="info-heading-home">WELCOME TO ALPHA</h3>
+        <p class="info-paragraph-home">
+            ALPHA Security is a ministry-approved private security company based in Southern Ontario dedicated to providing top-quality, proactive, and preventive security solutions at highly competitive rates.
+            As a trusted security guard agency, ALPHA Security boasts a team with extensive comprehensive protection experience, including excellent command over on-site operations and knowledge and implementation of advanced technology for the complete protection of clients.
+        </p>
+        <a href="#" class="read-more-btn-home">
+            Read More
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" viewBox="0 0 24 24">
+                <path d="M14.7 5.3a1 1 0 011.4 0l6 6a1 1 0 010 1.4l-6 6a1 1 0 11-1.4-1.4L19.58 13H5a1 1 0 010-2h14.58l-4.88-4.88a1 1 0 010-1.42z"/>
+            </svg>
+        </a>
+    </div>
+</div>
+
+<div class="container heading-center">
+    <h2 class="font-heading THIRD-SEC-HOME">OUR</h2>&nbsp;<h2 class="font-heading" style="color:red;">SURVEILLANCE SYSTEMS</h2>
+</div>
+
+  <div class="container heading-left">
+            <h2 class="font-heading THIRD-SEC-HOME">OUR</h2>&nbsp;<H2 class="font-heading" STYLE="COLOR:RED;">TESTIMONIALS</h2>
+            </div>
+
+<div class="container mt-5 margins-issue">
+    <div class="row">
+        <div class="col-md-3">
+            <div class="card CARD-BORDER">
+                <img src="./images/TAILOREDSERVICES.png" class="card-img-top card-img-topS" alt="Tailored Services">
+                <div class="card-body card-body-BTN">
+                    <h5 class="card-title">TAILORED SERVICES</h5>
+                </div>
+            </div>
         </div>
-        <div class="left-content col-12 mobl-left">
-            <h5 class="about-home-mob">About Us</h5>
-            <h3 class="info-heading-home">WELCOME TO ALPHA</h3>
-            <p class="info-paragraph-home">
-                ALPHA Security is a ministry approved private security company based in Southern Ontario dedicated to providing top quality, proactive and preventive security solutions at highly competitive rates.
-                As a trusted security guard agency, ALPHA Security boasts a team with extensive comprehensive protection experience including excellent command over on-site operation as well as knowledge and implementation of advanced technology for complete protection of
-                clients.   
-            </p>
-            <a href="#" class="read-more-btn-home">
-                Read More
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" viewBox="0 0 24 24">
-                    <path d="M14.7 5.3a1 1 0 011.4 0l6 6a1 1 0 010 1.4l-6 6a1 1 0 11-1.4-1.4L19.58 13H5a1 1 0 010-2h14.58l-4.88-4.88a1 1 0 010-1.42z"/>
-                </svg>
-            </a>
+        <div class="col-md-3">
+            <div class="card CARD-BORDER">
+                <img src="./images/LIVEREMOTEMONITORING.jpg" class="card-img-top card-img-topS" alt="Live Remote Monitoring">
+                <div class="card-body card-body-BTN">
+                    <h5 class="card-title">LIVE REMOTE MONITORING</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card CARD-BORDER">
+                <img src="./images/CAMERASYSTEMINSTALLATIONANDSET-UP.jpg" class="card-img-top card-img-topS" alt="Camera System Installation">
+                <div class="card-body card-body-BTN">
+                    <h5 class="card-title">CAMERA SYSTEM INSTALLATION AND SET-UP</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card CARD-BORDER">
+                <img src="./images/MOBILE SURVEILLANCE SYSTEM.jpg" class="card-img-top card-img-topS" alt="Mobile Surveillance System">
+                <div class="card-body card-body-BTN">
+                    <h5 class="card-title">MOBILE SURVEILLANCE SYSTEM</h5>
+                </div>
+            </div>
         </div>
     </div>
 </div>
 
 <div class="container heading-center">
-    <h2 class="font-heading THIRD-SEC-HOME">OUR</h2>&nbsp;<H2 class="font-heading" STYLE="COLOR:RED;"> SURVEILLANCE SYSTEMS</h2>
-    </div>
-    <div class="container mt-5 margins-issue">
-        <div class="row">
-            <div class="col-md-3">
-                <div class="card CARD-BORDER">
-                    <img src="./images/TAILOREDSERVICES.png" class="card-img-top card-img-topS" alt="Tailored Services">
-                    <div class="card-body card-body-BTN">
-                        <h5 class="card-title">TAILORED SERVICES</h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="card CARD-BORDER">
-                    <img src="./images/LIVEREMOTEMONITORING.jpg" class="card-img-top card-img-topS" alt="Live Remote Monitoring">
-                    <div class="card-body card-body-BTN">
-                        <h5 class="card-title">LIVE REMOTE MONITORING</h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="card CARD-BORDER">
-                    <img src="./images/CAMERASYSTEMINSTALLATIONANDSET-UP.jpg" class="card-img-top card-img-topS" alt="Camera System Installation">
-                    <div class="card-body card-body-BTN">
-                        <h5 class="card-title">CAMERA SYSTEM INSTALLATION AND SET-UP</h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="card CARD-BORDER">
-                    <img src="./images/MOBILE SURVEILLANCE SYSTEM.jpg" class="card-img-top card-img-topS" alt="Mobile Surveillance System">
-                    <div class="card-body card-body-BTN">
-                        <h5 class="card-title">MOBILE SURVEILLANCE SYSTEM</h5>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <h2 class="font-heading THIRD-SEC-HOME">OUR</h2>&nbsp;<h2 class="font-heading" style="color:red;">GUARD SERVICES</h2>
+</div>
 
-    <div class="container heading-center">
-        <h2 class="font-heading THIRD-SEC-HOME">OUR</h2>&nbsp;<H2 class="font-heading" STYLE="COLOR:RED;"> GUARD SERVICES</h2>
-        </div>
-        <div class="container mt-5 margins-issue ">
-            <div class="row">
-                <div class="col-md-3">
-                    <div class="card CARD-BORDER">
-                        <img src="./images/Security-Company-Business-Plan.jpg" class="card-img-top card-img-topS" alt="Tailored Services">
-                        <div class="card-body card-body-BTN">
-                            <h5 class="card-title">HEALTH CARE FACILITY</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card CARD-BORDER">
-                        <img src="./images/TAILOREDSERVICES.png" class="card-img-top card-img-topS" alt="Live Remote Monitoring">
-                        <div class="card-body card-body-BTN">
-                            <h5 class="card-title">FIRE AND CONTRACTOR WATCH</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card CARD-BORDER">
-                        <img src="./images/cops3.png" class="card-img-top card-img-topS" alt="Camera System Installation">
-                        <div class="card-body card-body-BTN">
-                            <h5 class="card-title">CONSTRUCTION SITES SECURITY</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card CARD-BORDER">
-                        <img src="./images/GUARDS.jpg" class="card-img-top card-img-topS" alt="Mobile Surveillance System">
-                        <div class="card-body card-body-BTN">
-                            <h5 class="card-title">MOBILE PATROL AND ALARM RESPONSE</h5>
-                        </div>
-                    </div>
+<div class="container mt-5 margins-issue">
+    <div class="row">
+        <div class="col-md-3">
+            <div class="card CARD-BORDER">
+                <img src="./images/Security-Company-Business-Plan.jpg" class="card-img-top card-img-topS" alt="Health Care Facility">
+                <div class="card-body card-body-BTN">
+                    <h5 class="card-title">HEALTH CARE FACILITY</h5>
                 </div>
             </div>
         </div>
-        <div class="container mt-5  ">
-            <div class="row">
-                <div class="col-md-3">
-                    <div class="card CARD-BORDER">
-                        <img src="./images/Security-Company-Business-Plan.jpg" class="card-img-top card-img-topS" alt="Tailored Services">
-                        <div class="card-body card-body-BTN">
-                            <h5 class="card-title">RESIDENTIAL AND CONCIERGE</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card CARD-BORDER">
-                        <img src="./images/LIVEREMOTEMONITORING.jpg" class="card-img-top card-img-topS" alt="Live Remote Monitoring">
-                        <div class="card-body card-body-BTN">
-                            <h5 class="card-title">EVENTS, CONCERTS,
-                                GAMES SECURITY</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card CARD-BORDER">
-                        <img src="./images/cops3.png" class="card-img-top card-img-topS" alt="Camera System Installation">
-                        <div class="card-body card-body-BTN">
-                            <h5 class="card-title">COMMERCIAL AND INDUSTRIAL SECTORS</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card CARD-BORDER">
-                        <img src="./images/high-angle-security-team-prevention.jpg" class="card-img-top card-img-topS" alt="Mobile Surveillance System">
-                        <div class="card-body card-body-BTN">
-                            <h5 class="card-title">EDUCTAIONAL
-                                CAMPUS SECURITY</h5>
-                        </div>
-                    </div>
+        <div class="col-md-3">
+            <div class="card CARD-BORDER">
+                <img src="./images/TAILOREDSERVICES.png" class="card-img-top card-img-topS" alt="Fire and Contractor Watch">
+                <div class="card-body card-body-BTN">
+                    <h5 class="card-title">FIRE AND CONTRACTOR WATCH</h5>
                 </div>
             </div>
         </div>
+        <div class="col-md-3">
+            <div class="card CARD-BORDER">
+                <img src="./images/cops3.png" class="card-img-top card-img-topS" alt="Construction Sites Security">
+                <div class="card-body card-body-BTN">
+                    <h5 class="card-title">CONSTRUCTION SITES SECURITY</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card CARD-BORDER">
+                <img src="./images/GUARDS.jpg" class="card-img-top card-img-topS" alt="Mobile Patrol and Alarm Response">
+                <div class="card-body card-body-BTN">
+                    <h5 class="card-title">MOBILE PATROL AND ALARM RESPONSE</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-3">
+            <div class="card CARD-BORDER">
+                <img src="./images/Security-Company-Business-Plan.jpg" class="card-img-top card-img-topS" alt="Residential and Concierge">
+                <div class="card-body card-body-BTN">
+                    <h5 class="card-title">RESIDENTIAL AND CONCIERGE</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card CARD-BORDER">
+                <img src="./images/LIVEREMOTEMONITORING.jpg" class="card-img-top card-img-topS" alt="Events, Concerts, Games Security">
+                <div class="card-body card-body-BTN">
+                    <h5 class="card-title">EVENTS, CONCERTS, GAMES SECURITY</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card CARD-BORDER">
+                <img src="./images/cops3.png" class="card-img-top card-img-topS" alt="Commercial and Industrial Sectors">
+                <div class="card-body card-body-BTN">
+                    <h5 class="card-title">COMMERCIAL AND INDUSTRIAL SECTORS</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card CARD-BORDER">
+                <img src="./images/high-angle-security-team-prevention.jpg" class="card-img-top card-img-topS" alt="Educational Campus Security">
+                <div class="card-body card-body-BTN">
+                    <h5 class="card-title">EDUCATIONAL CAMPUS SECURITY</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 
         
         <!-- <div id="carouselExample" class="carousel slide CLIENT-SLIDERS slider-desktop" data-bs-ride="carousel">
@@ -949,5 +1902,43 @@ Logo Container -->
 
            </div>
         </footer> 
+        <script>
+    function toggleAnswer(element) {
+    const answer = element.nextElementSibling;
+    const icon = element.querySelector('.toggle-icon');
+
+    if (answer.style.display === "block") {
+        answer.style.display = "none";
+        icon.textContent = "+";
+    } else {
+        answer.style.display = "block";
+        icon.textContent = "−";
+    }
+}
+
+   
+    document.addEventListener("DOMContentLoaded", function() {
+    const elementsToAnimate = document.querySelectorAll("[data-animate]");
+
+    const options = {
+        root: null,
+        threshold: 0.25, // Trigger when 25% of the element is visible
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add("visible"); // Add the "visible" class to trigger animation
+            }
+        });
+    }, options);
+
+    elementsToAnimate.forEach((element) => {
+        observer.observe(element);
+    });
+});
+
+</script>
 </body>
 </html>
+

@@ -685,7 +685,7 @@ button.QUATE-BTN {
   }
    .email-home {
     height: 31px;
-    font-size: 12;
+    font-size: 12px;
     width: 208px;
     background-color: #47495e;
     display: flex;
@@ -715,7 +715,7 @@ button.QUATE-BTN {
   margin: 0 7px;
 }
 .right-menu.d-flex.align-items-center.right-menu-home.col-12.stic-menu-sty {
-  margin-left: -12px;
+  margin-left: -12px !important;
 }
 
 
@@ -733,9 +733,196 @@ button.QUATE-BTN {
     border-radius: 22px;
     margin-left: 41px;
   }
-  
+  .sticky-menu {
+    z-index: 91;
+    position: fixed;
+    MARGIN-TOP: 46PX;
+    background-color: #0e112d !important;
+    opacity: 0.9;
+    padding-bottom: 27px;
+}
   
    .social-icons-d {
     margin-left: 169px;
   }
 }
+/* Fade-up From Bottom Animation */
+@keyframes fadeUpFromBottom {
+  0% {
+      opacity: 0;
+      transform: translateY(50px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+.fade-up-from-bottom {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 1s, transform 1s;
+}
+
+.fade-up-from-bottom.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Slide-In Right Animation */
+@keyframes slideInRight {
+  0% {
+      opacity: 0;
+      transform: translateX(50px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateX(0);
+  }
+}
+
+.slide-in-right {
+  opacity: 0;
+  transform: translateX(50px);
+  transition: opacity 1s, transform 1s;
+}
+
+.slide-in-right.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Slide-In From Top Animation */
+@keyframes slideInFromTop {
+  0% {
+      opacity: 0;
+      transform: translateY(-30px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+.heading-center {
+  opacity: 0;
+  transform: translateY(-30px);
+  transition: opacity 1s, transform 1s;
+}
+
+.heading-center.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Slide-In From Left */
+@keyframes slideInFromLeft {
+  0% {
+      opacity: 0;
+      transform: translateX(-50px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateX(0);
+  }
+}
+
+.slide-in-from-left {
+  opacity: 0;
+  transform: translateX(-50px);
+  transition: opacity 1s, transform 1s;
+}
+
+.slide-in-from-left.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+
+
+/* Start with elements invisible
+.fade-in-left, .slide-in-right, .fade-up-from-bottom {
+  visibility: hidden; /* Hidden initially 
+  opacity: 0;
+  transform: translateX(50px); /* Adjust based on your animation 
+  transition: visibility 0s 0.5s, opacity 0.5s ease, transform 0.5s ease;
+}
+
+/* Animation triggers when the element becomes visible 
+.fade-in-left.visible, .slide-in-right.visible, .fade-up-from-bottom.visible {
+  visibility: visible;
+  opacity: 1;
+  transform: translateX(0); /* Reset transform for animation 
+} */
+
+/* Fade-in Left Animation */
+@keyframes fadeInFromLeft {
+  0% {
+      opacity: 0;
+      transform: translateX(-50px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateX(0);
+  }
+}
+
+.fade-in-left {
+  opacity: 0; /* Start hidden */
+  transform: translateX(-50px);
+  transition: opacity 1s, transform 1s;
+}
+
+.fade-in-left.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+
+
+@media (max-width: 568px) {
+ 
+  /* Slide-In Right Animation */
+  @keyframes slideInRight {
+      0% {
+          opacity: 0;
+          transform: translateX(50px);
+      }
+      100% {
+          opacity: 1;
+          transform: translateX(0);
+      }
+  }
+  
+  .slide-in-right-mbl {
+      opacity: 0;
+      transform: translateX(50px);
+      transition: opacity 1s, transform 1s;
+  }
+  
+  .slide-in-right-mbl.visible {
+      opacity: 1;
+      transform: translateX(0);
+  }
+  @keyframes fadeUpFromBottom {
+      0% {
+          opacity: 0;
+          transform: translateY(50px);
+      }
+      100% {
+          opacity: 1;
+          transform: translateY(0);
+      }
+  }
+  
+  .fade-up-from-bottom-mobl {
+      opacity: 0;
+      transform: translateY(50px);
+      transition: opacity 1s, transform 1s;
+  }
+  
+  .fade-up-from-bottom-mobl.visible {
+      opacity: 1;
+      transform: translateY(0);
+  }
+  }
