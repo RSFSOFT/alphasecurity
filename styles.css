@@ -891,5 +891,15 @@ button.QUATE-BTN {
   .fade-up-from-bottom-mobl.visible {
       opacity: 1;
       transform: translateY(0);
+ 
+   }
+   .right-content.col-12.slide-in-right-mbl.visible {
+    display: block !important;
+}
+img.info-image-home-mob {
+  display: block !important;
+}
   }
+.right-content.col-12.slide-in-right-mbl.visible {
+  display: none;
 }
