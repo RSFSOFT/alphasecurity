@@ -590,6 +590,38 @@ justify-content: center;
         text-align: left !important;
         margin-left: 61px;
     }
+    .non-sticky-menu {
+      margin-left: 12px;
+  }
+
+  .home-number {
+    height: 31px;
+    font-size: 9px;
+    width: 101px;
+    background-color: #47495e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid transparent;
+    border-radius: 22px;
+    margin-left: 148px;
+}
+
+.email-home {
+  height: 31px;
+  font-size: 9px;
+  width: 156px;
+  background-color: #47495e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid transparent;
+  border-radius: 22px;
+  margin-left: -10px;
+}
+.social-icons-d {
+  margin-left: 308px;
+}
 }
 .social-icons-d {
   margin-left: 229px;
