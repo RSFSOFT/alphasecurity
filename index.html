@@ -1296,7 +1296,7 @@ Logo Container -->
         </div>
 
         <!-- Right Side: Image -->
-        <div class="right-content col-6 slide-in-right slide-in-right-mbl visible" data-animate=" slide-in-right">
+        <div class="right-content col-6 slide-in-right slide-in-right-mbl visible " data-animate=" slide-in-right">
             <img src="./images/nohat_upscale_x2_6a150ccd 1 copy 1.png" alt="Description" class="info-image-home">
             <img src="./images/consumer-removebg-preview.png" alt="" class="award">
         </div>
@@ -1957,7 +1957,40 @@ window.addEventListener('load', function () {
     });
 });
 
+function toggleAnswer(element) {
+    const answer = element.nextElementSibling;
+    const icon = element.querySelector('.toggle-icon');
 
+    if (answer.style.display === "block") {
+        answer.style.display = "none";
+        icon.textContent = "+";
+    } else {
+        answer.style.display = "block";
+        icon.textContent = "−";
+    }
+}
+
+   
+    document.addEventListener("DOMContentLoaded", function() {
+    const elementsToAnimate = document.querySelectorAll("[data-animate]");
+
+    const options = {
+        root: null,
+        threshold: 0.25, // Trigger when 25% of the element is visible
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add("visible"); // Add the "visible" class to trigger animation
+            }
+        });
+    }, options);
+
+    elementsToAnimate.forEach((element) => {
+        observer.observe(element);
+    });
+});
 </script>
 </body>
 </html>
