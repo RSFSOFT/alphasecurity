@@ -846,7 +846,9 @@ button.QUATE-BTN {
 
 /* Mobile-specific Styles */
 @media (max-width: 568px) {
-
+  .container.heading-centers.fade-up-from-bottom.fade-up-from-bottom-mobl.visible {
+    padding-top: 38px;
+}
   /* Slide-In Right Animation */
   @keyframes slideInRight {
       0% {
