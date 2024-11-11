@@ -233,9 +233,10 @@ body{
     }
 
     .menu-link {
-        padding: 0px 8px;
+        padding: 0px 0px;
         color: #ffffff;
         text-decoration: none;
+        margin-left: 5px;
     }
 
 .menu-link:hover {
@@ -278,7 +279,7 @@ body{
     width: 100%;
     z-index: 2;
     padding-top: 0px;
-    margin-top: -136px;
+    margin-top: -158px;
 }
 img.LOGO-HOME.sticky-logo {
     margin-top: 0px;
