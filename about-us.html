@@ -167,7 +167,7 @@ Logo Container -->
         <!-- Left Side: Heading and Paragraph  <div class="container heading-center">
     
     </div>-->
-        <div class="left-content col-12 col-md-6 mb-4 mb-md-0">
+        <div class="left-content col-12 col-md-6 mb-4 mb-md-0 slide-in-from-left" data-animate="slide-in-from-left ">
            <div class="d-flex">
             <h2 class="font-heading THIRD-SEC-HOME">OUR</h2>&nbsp;<H2 class="font-heading" STYLE="COLOR:RED;"> GUARD SERVICES</h2>
             </div> <p class="info-paragraph-abt">
@@ -175,20 +175,25 @@ Logo Container -->
                  </p>
         </div>
 
-        <!-- Right Side: Image -->
-        <div class="right-content col-12 col-md-6">
+        <!-- Right Side: Image <div class="right-content col-6 slide-in-right visible" data-animate=" slide-in-right">
+            <img src="./images/nohat_upscale_x2_6a150ccd 1 copy 1.png" alt="Description" class="info-image-home">
+           
+        </div> -->
+        <div class="right-content col-12 col-md-6 slide-in-right " data-animate=" slide-in-right">
             <img src="./images/Security-Guard.jpg" alt="Description" class="info-image-about w-80">
         </div>
     </div>
 </div>
-
-<div class="container ">
+<!-- <div class="container heading-centers fade-up-from-bottom fade-up-from-bottom-mobl padding-moble visible" data-animate="fade-up-from-bottom">
+    <h2 class="font-heading THIRD-SEC-HOME">OUR</h2>&nbsp;<h2 class="font-heading font-szie-mobl" style="color:red;">SURVEILLANCE SYSTEMS</h2>
+</div> -->
+<div class="container fade-up-from-bottom fade-up-from-bottom-mobl  " data-animate="fade-up-from-bottom">
 <h2 class="second-heading-abt-pg" >Why Choose Us</h2>
 </div>
-<div class="container d-flex justify-content-center">
+<div class="container d-flex justify-content-center fade-up-from-bottom fade-up-from-bottom-mobl  " data-animate="fade-up-from-bottom">
         <img class=" abt-img-style" src="./images/1d80ca22-f2aa-4f05-841b-4ea826fe5ae1.jpeg" alt="">  
 </div>
-    <div class="values-section">
+    <div class="values-section slide-in-from-left" data-animate="slide-in-from-left ">
         <div class="sidebar">
             <div class="sidebar-item active" onclick="showContent('values')">
                 <span>OUR VALUES</span>
@@ -216,11 +221,11 @@ Logo Container -->
             </ul>
         </div>
     </div>
-    <DIV class="testimonials-heading-mobile">
+    <DIV class="testimonials-heading-mobile fade-up-from-bottom fade-up-from-bottom-mobl  " data-animate="fade-up-from-bottom">
         <img src="./images/maps2.png" alt="" width="90%"class="">
 
     </DIV>
-    <DIV class="testimonials-heading">
+    <DIV class="testimonials-heading fade-up-from-bottom fade-up-from-bottom-mobl  " data-animate="fade-up-from-bottom">
         <img src="./images/maps.PNG" alt=""  class="why-choose-img">
        
     </DIV>
@@ -564,6 +569,101 @@ Logo Container -->
             `;
         }
     }
+    
+    function toggleAnswer(element) {
+    const answer = element.nextElementSibling;
+    const icon = element.querySelector('.toggle-icon');
+
+    if (answer.style.display === "block") {
+        answer.style.display = "none";
+        icon.textContent = "+";
+    } else {
+        answer.style.display = "block";
+        icon.textContent = "−";
+    }
+}
+
+   
+    document.addEventListener("DOMContentLoaded", function() {
+    const elementsToAnimate = document.querySelectorAll("[data-animate]");
+
+    const options = {
+        root: null,
+        threshold: 0.25, // Trigger when 25% of the element is visible
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add("visible"); // Add the "visible" class to trigger animation
+            }
+        });
+    }, options);
+
+    elementsToAnimate.forEach((element) => {
+        observer.observe(element);
+    });
+});
+// Function to check if an element is in the viewport
+function isInViewport(element) {
+    const rect = element.getBoundingClientRect();
+    return rect.top >= 0 && rect.bottom <= window.innerHeight;
+}
+
+// Adding 'visible' class to elements when they are in the viewport
+window.addEventListener('scroll', function () {
+    const elements = document.querySelectorAll('.fade-up-from-bottom, .fade-up-from-bottom-mobl');
+    elements.forEach(function (element) {
+        if (isInViewport(element)) {
+            element.classList.add('visible');
+        }
+    });
+});
+
+// Trigger visibility check on page load
+window.addEventListener('load', function () {
+    const elements = document.querySelectorAll('.fade-up-from-bottom, .fade-up-from-bottom-mobl');
+    elements.forEach(function (element) {
+        if (isInViewport(element)) {
+            element.classList.add('visible');
+        }
+    });
+});
+
+function toggleAnswer(element) {
+    const answer = element.nextElementSibling;
+    const icon = element.querySelector('.toggle-icon');
+
+    if (answer.style.display === "block") {
+        answer.style.display = "none";
+        icon.textContent = "+";
+    } else {
+        answer.style.display = "block";
+        icon.textContent = "−";
+    }
+}
+
+   
+    document.addEventListener("DOMContentLoaded", function() {
+    const elementsToAnimate = document.querySelectorAll("[data-animate]");
+
+    const options = {
+        root: null,
+        threshold: 0.25, // Trigger when 25% of the element is visible
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add("visible"); // Add the "visible" class to trigger animation
+            }
+        });
+    }, options);
+
+    elementsToAnimate.forEach((element) => {
+        observer.observe(element);
+    });
+});
 </script>
 </body>
 </html>

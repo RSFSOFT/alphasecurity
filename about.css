@@ -236,7 +236,7 @@ body{
         padding: 0px 0px;
         color: #ffffff;
         text-decoration: none;
-        margin-left: 5px;
+        margin-left: 0px;
     }
 
 .menu-link:hover {
@@ -300,13 +300,17 @@ img.LOGO-HOME.sticky-logo {
 }
 .right-menu.d-flex.align-items-center.right-menu-home {
     margin-right: 0px !important;
-    margin-left: -498px;
+    margin-left: -445px;
 }
 .right-menu.d-flex.align-items-center.right-menu-home.col-12.stic-menu-sty {
-    margin-left: -439px !important;
+    margin-left: -432px !important;
 }
 
 @media (min-width: 800px) {
+    .sticky-menu .menu-link {
+        color: #fff;
+        margin: 0 4px !important;
+    }
         .home-number {
             margin-left: 0px !important;
         }
