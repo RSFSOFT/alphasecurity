@@ -481,3 +481,12 @@ color: #2834aa;}
   /* Your CSS styles here */
 margin-left: 4px;
 }
+
+.non-sticky-menu .left-menu.menu-left-home.d-flex.col-12.left-menu-sliders{
+  margin-left: 0px;
+}
+
+.non-sticky-menu .right-menu.d-flex.align-items-center.right-menu-home {
+  margin-right: 0px !important;
+  margin-left: -458px;
+}
