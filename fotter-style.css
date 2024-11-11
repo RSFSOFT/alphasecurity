@@ -17,6 +17,10 @@ img.LOGO-HOME.sticky-logo {
     margin-left: -474px;
 }
 @media only screen and (max-width: 600px) {
+    .font-szie-mobl{
+        font-size: 23px;
+    }
+    
     .social-icons-d {
         margin-left: 0px !important;
     }
@@ -25,13 +29,13 @@ img.LOGO-HOME.sticky-logo {
      
     }
     div#carouselExampleIndicators {
-        margin-top: 159px;
+        margin-top: 134px;
     }
     .container.mob-menu-sticky {
         position: fixed;
         background-color: #0e112d !important;
         z-index: 4;
-        margin-top: -69.5px;
+        margin-top: 65.5px;
         opacity: 0.9;
     }
     
@@ -45,7 +49,7 @@ img.LOGO-HOME.sticky-logo {
 .mobl-logo {
     width: 47px;
     object-fit: cover;
-    margin-left: 200px;
+    margin-left: 155px;
 }
 .new-fotter-cls{
     margin-left: 98px;

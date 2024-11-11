@@ -107,13 +107,7 @@
     .carousel-item {
         height: 68vh !important;
     }
-    .mobilereward{
-        width: 100px;
-        float: right;
-        margin-top: -445px;
-        z-index: 1;
-        position: relative;
-    }
+   
     .carousel-item img {
         margin-top: 212px !important;
     }
