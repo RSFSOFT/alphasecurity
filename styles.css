@@ -379,9 +379,11 @@ div#carouselExampleIndicators {
     }
     
     .carousel-item img {
-      height: auto;
-      max-height: 265px;
-      margin-top: 270px;
+      height: 93px;
+      max-height: 220px;
+      margin-top: -px;
+      width: 120px;
+      margin-left: 91px !important;
   }
   .CLIENT-SLIDERS {
     background-color: #003DA5 !important;
@@ -507,6 +509,13 @@ text-decoration: none !important;
 }
 
 @media (min-width: 768px) {
+  .award {
+    width: 5%;
+    z-index: 500;
+    position: relative;
+    margin-top: 22px;
+    float: right;
+}
 .mobl-fotter-centerlization{
     width: 100%;
     display: flex;
@@ -905,3 +914,13 @@ img.info-image-home-mob {
 .right-content.col-12.slide-in-right-mbl.visible {
   display: none;
 }
+
+.slider-image-container {
+  max-width: 150px; /* Adjust width as needed */
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+/* .award {
+  width: 100%; /* Scale the image within container 
+} */
