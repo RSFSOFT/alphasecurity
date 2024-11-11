@@ -287,9 +287,9 @@ img.LOGO-HOME.sticky-logo {
 
 
 .sticky-menu .menu-link {
-   
     margin: 0;
-}
+    margin-left: 9px;
+} 
 .slider-heading {
     font-size: 27px;
     color: white;
@@ -300,7 +300,7 @@ img.LOGO-HOME.sticky-logo {
 }
 .right-menu.d-flex.align-items-center.right-menu-home {
     margin-right: 0px !important;
-    margin-left: -445px;
+    margin-left: -474px;
 }
 .right-menu.d-flex.align-items-center.right-menu-home.col-12.stic-menu-sty {
     margin-left: -432px !important;
