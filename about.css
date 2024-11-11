@@ -304,3 +304,9 @@ img.LOGO-HOME.sticky-logo {
 .right-menu.d-flex.align-items-center.right-menu-home.col-12.stic-menu-sty {
     margin-left: -439px !important;
 }
+
+@media (min-width: 800px) {
+        .home-number {
+            margin-left: 0px !important;
+        }
+    }
