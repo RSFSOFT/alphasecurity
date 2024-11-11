@@ -477,3 +477,7 @@ color: #2834aa;}
   opacity: 1;
   transform: translateX(0);
 }
+.sticky-menu .left-menu.menu-left-home.d-flex.col-12.left-menu-sliders {
+  /* Your CSS styles here */
+margin-left: 4px;
+}
