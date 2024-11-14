@@ -315,7 +315,45 @@ img.LOGO-HOME.sticky-logo {
             margin-left: 0px !important;
         }
     }
- 
+    /* icons-aboutus */
+    .feature-section {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+        padding: 20px;
+        background-color: #ffffff;
+    }
     
+    .feature-item-abt {
+        text-align: center;
+        padding: 20px;
+        display: flex;
+        background-color: #F3F4F9;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .icon {
+        width: 50px;
+        height: 50px;
+        object-fit: contain;
+        margin-bottom: 10px;
+    }
+    
+    .feature-item-abt p {
+        font-size: 14px;
+        color: #333;
+        font-weight: 500;
+    }
+    @media(min-width:700px){
+    .icons-main{
+        width: 66%;
+        margin: auto;
+        height: auto;
+    }
+}
     
     
