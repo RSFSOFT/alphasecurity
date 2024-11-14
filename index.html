@@ -1014,6 +1014,40 @@ QControls
       .logo_items img{
         height: 100px;
       }
+/* dropdownmen */
+      /* Make the dropdown background transparent, remove border, and shadow */
+/* Make the dropdown background transparent, remove border, and shadow */
+.dropdown-menu {
+    background-color: transparent;
+    border: none;
+    box-shadow: none; /* Optional: remove shadow if any */
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none; /* Initially hide the dropdown */
+}
+
+/* Change the color of the dropdown items to white */
+.dropdown-item {
+    color: white;
+}
+/* .dropdown{
+    margin-top: -7.6px;
+} */
+/* Change the item color to #ffcc00 on hover */
+.dropdown-item:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Light hover effect */
+    color: #ffcc00; /* Change text color to #ffcc00 (yellow) */
+}
+
+/* Show the dropdown on hover */
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+
+
 </style>
     <script src="script.js"></script>
 </head>
@@ -1105,17 +1139,44 @@ Logo Container -->
 
 
 <!-- Carousel Section -->
-<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+<!-- <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
     <div id ="menus"class="non-sticky-menu">
         <div class="container d-flex justify-content-between align-items-center desk-menues ">
-            <!-- Left Menu Links -->
+             Left Menu Links 
             <div class="left-menu menu-left-home d-flex col-12 left-menu-sliders">
                 <a href="./index.html" class="menu-link">Home</a>
                 <a href="./about-us.html" class="menu-link">About Us</a>
                 <a href="./OUR-SERVICES.html" class="menu-link">Our Services</a>
                 <a href="./page.html" class="menu-link">Security Systems</a>
+            </div> -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div id="menus" class="non-sticky-menu">
+        <div class="container d-flex justify-content-between align-items-center desk-menues">
+            <!-- Left Menu Links -->
+            <div class="left-menu menu-left-home d-flex col-12 left-menu-sliders">
+                <a href="./index.html" class="menu-link">Home</a>
+                
+                <!-- About Us Dropdown -->
+                <div class="dropdown">
+                    <a href="#" class="menu-link" id="aboutUsDropdown" role="button">
+                        About Us <i class="fas fa-chevron-down"></i>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="aboutUsDropdown">
+                        <li><a class="dropdown-item" href="https://hostrsf.com/updatedalpha-git/about-us.html#about-our-guards">Our Guards</a></li>
+                        <li><a class="dropdown-item" href="https://hostrsf.com/updatedalpha-git/about-us.html#about-our-security-systems">Our Security Systems</a></li>
+                        <li><a class="dropdown-item" href="https://hostrsf.com/updatedalpha-git/about-us.html#BlogsandNews ">Blogs and News</a></li>
+
+                    </ul>
+                </div>
+                
+                
+
+                <a href="./OUR-SERVICES.html" class="menu-link">Our Services</a>
+                <a href="./page.html" class="menu-link">Security Systems</a>
             </div>
-    
+
+  
+
             <!-- Logo in Center -->
             <div class="menu-logo">
                 <img src="./images/logo.png" alt="Logo" class="LOGO-HOME">
@@ -2014,6 +2075,9 @@ function toggleAnswer(element) {
     });
 });
 </script>
+<!-- Bootstrap JS and Popper.js -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
 
