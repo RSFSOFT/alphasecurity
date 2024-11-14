@@ -315,3 +315,7 @@ img.LOGO-HOME.sticky-logo {
             margin-left: 0px !important;
         }
     }
+    .seconds-image-about {
+        width: 79% !important;
+        position: relative;
+    }
