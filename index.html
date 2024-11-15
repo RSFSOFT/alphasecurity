@@ -1013,6 +1013,7 @@ QControls
       
       .logo_items img{
         height: 100px;
+        object-fit: contain;
       }
 /* dropdownmen */
       /* Make the dropdown background transparent, remove border, and shadow */
@@ -1410,7 +1411,18 @@ Logo Container -->
             <!-- Left Menu Links -->
             <div class="left-menu menu-left-home d-flex col-12 left-menu-sliders">
                 <a href="#" class="menu-link STIKY-MENU-A">Home</a>
-                <a href="./about-us.html" class="menu-link  STIKY-MENU-A">About Us</a>
+                 <!-- About Us Dropdown -->
+                 <div class="dropdown">
+                    <a href="#" class="menu-link" id="aboutUsDropdown" role="button">
+                        About Us <i class="fas fa-chevron-down"></i>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="aboutUsDropdown">
+                        <li><a class="dropdown-item" href="https://hostrsf.com/updatedalpha-git/about-us.html#about-our-guards">Our Guards</a></li>
+                        <li><a class="dropdown-item" href="https://hostrsf.com/updatedalpha-git/about-us.html#about-our-security-systems">Our Security Systems</a></li>
+                        <li><a class="dropdown-item" href="https://hostrsf.com/updatedalpha-git/about-us.html#BlogsandNews ">Blogs and News</a></li>
+
+                    </ul>
+                </div>
                 <a href="./ONTARIO SECURITY GUARD COURSE.html" class="menu-link STIKY-MENU-A">Security Guards</a>
                 <a href="./page.html" class="menu-link STIKY-MENU-A">Security Systems</a>
             </div>
@@ -1816,7 +1828,7 @@ height: auto !important;
             </div>
 
             <DIV class="container slide-in-from-left " data-animate="slide-in-from-left">
-                <div class="row ro">
+                <div class="row ro d-lg-flex justify-content-center">
                 <div class="col-lg-3 co d-flex d-lg-block justify-content-center ">
                     <img class="custom-testimonial-image " src="./images/testimonial-men.png" alt="">
                 </div>
