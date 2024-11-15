@@ -16,6 +16,11 @@ img.LOGO-HOME.sticky-logo {
 .right-menu.d-flex.align-items-center.right-menu-home.col-12.stic-menu-sty {
     margin-left: -474px;
 }
+a.links-services-oth-sec-l {
+    color: white;
+    text-decoration: none;
+    gap: 0;
+}
 @media only screen and (max-width: 600px) {
     .font-szie-mobl{
         font-size: 23px;
