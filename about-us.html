@@ -23,6 +23,42 @@
     list-style: none;
     margin-left: 0px;
 }
+@media screen and (max-width: 700px) { 
+
+.feature-section {
+    display: flex;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* margin: auto; */
+}
+.icon {
+    width: 100%;
+    /* width: 50px; */
+    height: 50px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+.feature-item-abt {
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    background-color: #F3F4F9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+img.seconds-image-about.w-80 {
+    width: 100%;
+}
+}
     </style>
 </head>
 <body>

@@ -1046,8 +1046,221 @@ QControls
     display: block;
 }
 
+/* testimonials */
+    .ro {
+    min-height: 341px;
+}
+        
+        .col-4.cth {
+        /* background-color: aqua; */
+        }
+        .ct {
+            margin-top: 25px;
+    /* background-color: burlywood; */
+    box-shadow: black;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    height: 230px;
+}
+        .co{
+            /* background: green; */
+        
+        }
+        .custom-testimonial-image{
+            height: 270px;
+            border-top-left-radius: 9px; /* Top-left corner radius */
+  border-bottom-left-radius: 9px;
+        }
+    .spaceing{
+        padding-top: 60px;
+    }
+    .arrow-icons {
+    padding-top: 20px;
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+}
+i.fas.fa-arrow-left {
+
+    color: red;
+}
+i.fas.fa-arrow-right{
+    color: red;
+}
+.testimonial-item{
+    font-size: 13px;
+    font-family: arial;
+    padding-right: 37px;
+}
+.testimonial-client-name {
+    font-size: 14px;
+    font-family: arial;
+    font-weight: 600;
+    color: #1a2780;
+}
+i.fa.fa-quote-left.fa-2x.fa-pull-left {
+    color: #1a2780;
+    font-size: 20px;
+}
+.stats-container {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    /* padding-top: 20px; */
+    padding-bottom: 20px;
+}
+
+.stat-item {
+    background-color: #f3f4f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 277px;
+}
+
+.number {
+    font-size: 36px;
+    font-weight: bold;
+    color: #2a358e;
+    margin-bottom: 10px;
+}
+
+.label {
+    font-size: 16px;
+    color: #7F8C8D;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.devider{
+    width: 59px;
+    height: 3px;
+    display: block;
+    background-color: red;
+    margin: auto;
+    margin-top: -12px;
+}
+/* testimonial new */
+.col-4.ct {
+    position: relative;
+}
+
+/* .arrow-icons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+} */
+
+.arrow-icons i {
+    cursor: pointer;
+    font-size: 24px;
+    color: #333;
+}
+
+#testimonialCarousel {
+    position: relative;
+}
+
+.testimonial {
+    display: none;
+    animation: fadeIn 0.5s;
+}
+
+.testimonial.active {
+    display: block;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateX(-10%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
 
 
+/* icons */
+ /* icons-aboutus */
+ .feature-section {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+        padding: 20px;
+        background-color: #ffffff;
+    }
+    
+    .feature-item-abt {
+        text-align: center;
+        padding: 20px;
+        display: flex;
+        background-color: #F3F4F9;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .icon {
+        width: 50px;
+        height: 50px;
+        object-fit: contain;
+        margin-bottom: 10px;
+    }
+    
+    .feature-item-abt p {
+        font-size: 14px;
+        color: #333;
+        font-weight: 500;
+    }
+    @media(min-width:700px){
+    .icons-main{
+        width: 66%;
+        margin: auto;
+        height: auto;
+    }
+}
+@media screen and (max-width: 700px) {
+    .cth {
+    padding-top: 30px;
+}   
+
+.feature-section {
+    display: flex;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* margin: auto; */
+}
+.icon {
+    width: 100%;
+    /* width: 50px; */
+    height: 50px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+.feature-item-abt {
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    background-color: #F3F4F9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+}
 </style>
     <script src="script.js"></script>
 </head>
@@ -1601,27 +1814,160 @@ height: auto !important;
         <div class="container heading-left fade-up-from-bottom fade-up-from-bottom-mobl" data-animate="fade-up-from-bottom">
             <h2 class="font-heading THIRD-SEC-HOME">OUR</h2>&nbsp;<H2 class="font-heading" STYLE="COLOR:RED;">TESTIMONIALS</h2>
             </div>
-        <DIV class="testimonials-heading slide-in-from-left " data-animate="slide-in-from-left">
+
+            <DIV class="container slide-in-from-left " data-animate="slide-in-from-left">
+                <div class="row ro">
+                <div class="col-lg-3 co d-flex d-lg-block justify-content-center ">
+                    <img class="custom-testimonial-image " src="./images/testimonial-men.png" alt="">
+                </div>
+                <!-- testimonial  <div class="col-4 ct">
+                    <div class="arrow-icons">
+                        <i class='fas fa-arrow-left'></i>
+                        <i class='fas fa-arrow-right'></i>
+                    </div>
+                    <div>
+                        <p><i class="fa fa-quote-left fa-2x fa-pull-left "></i></p>
+                        <br>
+                        <p class="testimonial-item">We are currently using Alpha Security Services to assist running a vaccination clinic. I cannot stress how amazing the staff have been. The staff follow direction well and are very professional. The job can be difficult at times with long days. Highly recommend</p>
+                    <p class="testimonial-client-name">SEAN VAN ALPHEN
+                    </p>
+                    <p class="testimonial-item">We are currently using Alpha Security Services to assist running a vaccination clinic. I cannot stress how amazing the staff have been. The staff follow direction well and are very professional. The job can be difficult at times with long days. Highly recommend</p>
+                    <p class="testimonial-client-name">SEAN VAN ALPHEN
+                    </p>
+                    </div>
+                </div> -->
+                <div class="col-lg-4 ct">
+                    <div class="arrow-icons">
+                        <i class="fas fa-arrow-left" id="prevArrow"></i>
+                        <i class="fas fa-arrow-right" id="nextArrow"></i>
+                    </div>
+                    <div id="testimonialCarousel">
+                        <div class="testimonial active">
+                            <p><i class="fa fa-quote-left fa-2x fa-pull-left"></i></p>
+                            <br>
+                            <p class="testimonial-item">
+                                We are currently using Alpha Security Services to assist running a vaccination clinic. I cannot stress how amazing the staff have been. The staff follow direction well and are very professional. The job can be difficult at times with long days. Highly recommend.
+                            </p>
+                            <p class="testimonial-client-name">SEAN VAN ALPHEN</p>
+                        </div>
+                        <div class="testimonial">
+                            <p><i class="fa fa-quote-left fa-2x fa-pull-left"></i></p>
+                            <br>
+                            <p class="testimonial-item">
+                                Alpha Security Services provided top-notch security for our event. The team was punctual, well-trained, and courteous. Highly recommended!
+                            </p>
+                            <p class="testimonial-client-name">JANE DOE</p>
+                        </div>
+                        <!-- Add more testimonials as needed -->
+                    </div>
+                </div>
+                <!--end  -->
+                <div class="col-lg-4 cth">
+                    <div class="stats-container">
+                        <div class="stat-item">
+                            <p class="number">22+</p>
+                           <span class="devider"></span>
+                            <p class="label">Happy Clients</p>
+                        </div>
+                        <div class="stat-item">
+                            <p class="number">342+</p>
+                            <span class="devider"></span>
+                            <p class="label">Projects Completed</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </DIV>
+
+
+        <!-- <DIV class="testimonials-heading slide-in-from-left " data-animate="slide-in-from-left">
             <img src="./images/TESTIMONIALS.png" alt="" class="testimonials-img">
         </DIV>
         <DIV class="testimonials-heading-mobile">
             <img src="./images/mobile-testimonial.png" alt="" width="90%"class="">
             <img src="./images/text-testimonials.png" width="90%"alt="">
             <img src="./images/happy-client.png" width="90%"alt="">
-        </DIV>
+        </DIV> -->
         <!-- <DIV class="testimonials-heading"></DIV> -->
          
         <div class="container heading-centers fade-up-from-bottom fade-up-from-bottom-mobl" data-animate="fade-up-from-bottom">
             <h2 class="font-heading THIRD-SEC-HOME">WHY</h2>&nbsp;<H2 class="font-heading" STYLE="COLOR:RED;"> CHOOSE US</h2>
             </div>
-            <DIV class="testimonials-heading-mobile">
+            <div class="icons-main  fade-up-from-bottom fade-up-from-bottom-mobl  " data-animate="fade-up-from-bottom">
+                <div class="feature-section">
+                    <div class="feature-item-abt">
+                        <img class="icon" src="./images/FH.png" alt="Security Personnel Icon">
+                        <p>Dedicated Client Account Manager & 24x7 Customer Support
+                        </p>
+                    </div>
+                    <div class="feature-item-abt">
+                        <img class="icon" src="./images/Untitled-1.png" alt="Client Manager Icon">
+                        <p>Tailored Services & Cost-Effective Solutions
+                        </p>
+                    </div>
+                    <div class="feature-item-abt">
+                        <img class="icon" src="./images/k,n,lk.png" alt="Tailored Services Icon">
+                        <p>24/7 Availability and Swift Response To Emergencies
+                        </p>
+                    </div>
+                    <div class="feature-item-abt">
+                        <img class="icon" src="./images/UIO.png" alt="Certified Trainers Icon">
+                        <p>Detailed Incident and Daily Log Reports
+                            </p>
+                    </div>
+                    <div class="feature-item-abt">
+                        <img class="icon" src="./images/UIO.png" alt="Consultation Icon">
+                        <p>Service Usage Flexibility
+                        </p>
+                    </div>
+                    <div class="feature-item-abt">
+                        <img class="icon" src="./images/FH.png" alt="Incident Reports Icon">
+                        <p>Professional Guards & Certified In- House Trainers
+                        </p>
+                    </div>
+                    <div class="feature-item-abt">
+                        <img class="icon" src="./images/FH.png" alt="Emergency Response Icon">
+                        <p>Free Consultation and Site Assessment
+                        </p>
+                    </div>
+                    <div class="feature-item-abt">
+                        <img class="icon" src="./images/FH.png" alt="Service Flexibility Icon">
+                        <p>One Stop Solution for all Security Needs
+                        </p>
+                    </div>
+                    <div class="feature-item-abt">
+                        <img class="icon" src="./images/FH.png" alt="Service Flexibility Icon">
+                        <p>Detailed Record Keeping & Evidence Documentations
+
+                        </p>
+                    </div>
+                    <div class="feature-item-abt">
+                        <img class="icon" src="./images/FH.png" alt="Service Flexibility Icon">
+                        <p>Innovative Tech Integration
+
+                        </p>
+                    </div>
+                    <div class="feature-item-abt">
+                        <img class="icon" src="./images/FH.png" alt="Service Flexibility Icon">
+                        <p>Certified Technicians
+
+                        </p>
+                    </div>
+                    <div class="feature-item-abt">
+                        <img class="icon" src="./images/FH.png" alt="Service Flexibility Icon">
+                        <p>Fastest and Most Convenient to Acquire
+                        </p>
+                    </div>
+                </div>
+                </div>
+            <!-- <DIV class="testimonials-heading-mobile">
                 <img src="./images/WHY-SCHOOSE.png" alt="" width="90%"class="">
      
             </DIV>
             <DIV class="testimonials-heading fade-up-from-bottom fade-up-from-bottom-mobl" data-animate="fade-up-from-bottom">
                 <img src="./images/WHY-SCHOOSE.png" alt=""  class="why-choose-img">
                
-            </DIV>
+            </DIV> -->
             <DIV class="testimonials-heading-mobile">
                 <!-- <img src="./images/maps2.png" alt="" width="90%"class=""> -->
                 <video autoplay muted loop>
@@ -2074,6 +2420,22 @@ function toggleAnswer(element) {
         observer.observe(element);
     });
 });
+// testimonial
+const testimonials = document.querySelectorAll(".testimonial");
+let currentIndex = 0;
+
+document.getElementById("prevArrow").addEventListener("click", () => {
+    testimonials[currentIndex].classList.remove("active");
+    currentIndex = (currentIndex - 1 + testimonials.length) % testimonials.length;
+    testimonials[currentIndex].classList.add("active");
+});
+
+document.getElementById("nextArrow").addEventListener("click", () => {
+    testimonials[currentIndex].classList.remove("active");
+    currentIndex = (currentIndex + 1) % testimonials.length;
+    testimonials[currentIndex].classList.add("active");
+});
+
 </script>
 <!-- Bootstrap JS and Popper.js -->
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
